@@ -1,0 +1,7 @@
+# Opt the package into vibe's traceability map so `vibe explain spec://...` answers with a locator.
+namespace = "ai.lev/fpf-think-mmp"
+scan_roots = []
+spec_roots = ["vibevm/vibespecs"]
+root_spec_docs = []
+exempt = []
+dispositioned = []

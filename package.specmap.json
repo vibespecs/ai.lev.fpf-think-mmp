@@ -1,0 +1,3753 @@
+{
+  "code_items": [],
+  "edges": [],
+  "schema": 3,
+  "spec_units": [
+    {
+      "anchor": "root",
+      "content_hash": "sha256:84e41af1580b1fdff010a9707f0250860195b5815e7e3a6c9143eb517cad1d69",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "MMP.10 - Construct and Revise a Mathematical Constraint Formulation",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:08435cb687543f01e7704db58ef279cecb5fe33f4f4e0010c872cd4725b99cd9",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "MMP.10:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:92ac9062c40d57e3e56cd394ce4d0a6870603cabde31a52df5ecbddd9e5ca7bf",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "MMP.10:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:8e4a1ca663ec4afa28206000ead24874c72a37278e2a7a5f0af5b9b7ebd80e8a",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "MMP.10:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:18f2697323436483c295705154e61e4e55671d43cc79e80b9f8e7285dfb1eef6",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "MMP.10:4 - Solution",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#solution"
+    },
+    {
+      "anchor": "recover-what-varies-and-what-the-question-asks",
+      "content_hash": "sha256:bff68d9a3a529c84cc22a8104dde9daebbad1a830534d86acb473f4aac652b19",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "MMP.10:4.1 - Recover what varies and what the question asks",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#recover-what-varies-and-what-the-question-asks"
+    },
+    {
+      "anchor": "construct-variables-that-represent-the-object",
+      "content_hash": "sha256:6164abd44f36f9e7e208320c25d937916d4c81daf2b57ffbb7fd425b77d39acd",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "MMP.10:4.2 - Construct variables that represent the object",
+      "line": 51,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#construct-variables-that-represent-the-object"
+    },
+    {
+      "anchor": "derive-structural-conditions-and-translate-requirements",
+      "content_hash": "sha256:3e7e840f94bc482f154e9939b777f131e1e4c60429c76576d02e4b9ff0e78f47",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "MMP.10:4.3 - Derive structural conditions and translate requirements",
+      "line": 61,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#derive-structural-conditions-and-translate-requirements"
+    },
+    {
+      "anchor": "make-the-answer-correspond-to-the-question",
+      "content_hash": "sha256:02c5628f0df8e9e9469cee46826b35eec9c41142aabe946cdb836b154727f41f",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "MMP.10:4.4 - Make the answer correspond to the question",
+      "line": 73,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#make-the-answer-correspond-to-the-question"
+    },
+    {
+      "anchor": "revise-the-formulation-from-the-changed-requirement",
+      "content_hash": "sha256:575afd9a9066c129f62ddaa3c500152e344f94cc01d247b343a9a992f0a31ff2",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "MMP.10:4.5 - Revise the formulation from the changed requirement",
+      "line": 89,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#revise-the-formulation-from-the-changed-requirement"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:bbfd810faaebdf9190f92e2fd0f8a46a0c9a6d4f090221c941966bce7a0096ac",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "MMP.10:7 - Conformance Checklist",
+      "line": 97,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:22671a83e8f98e819ad7cb4f3579a1fb8fdd0267d5a52c916b1af2bde91328d7",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "MMP.10:9 - Consequences",
+      "line": 107,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:7e1bc1d2759b8138afdf29aa8bbf259375996a1cef0e90b51204935c1ea282f5",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "MMP.10:12 - Relations",
+      "line": 113,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:1a48aed9f30ce295db27405063bf0af7ef68116ef49357b0e4943359c8c919b0",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "Dependencies",
+      "line": 125,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:0495ca125693155338b86e8c091829006dd81c614df4caae3843b75eac7efac2",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-spec/contract/B-5-FM#root for initial formulation; spec://ai.lev/fpf-think-math/contract/MATH-1#root/.5 for construction and representation; spec://ai.lev/fpf-spec/contract/C-29-1#root for transferring results; spec://ai.lev/fpf-think-mmp/contract/MMP-11#root for unknown relations. @status:spec/done",
+      "line": 127,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:95a867ba80b3ce71d7b9e2452e9e6093658169b42837491adab7a45ab752c35e",
+      "doc_path": "contract/MMP-10",
+      "file": "vibevm/vibespecs/contract/MMP-10.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-think-cmp/contract/CMP-4#root, spec://ai.lev/fpf-think-mmp/contract/MMP-11#root, spec://ai.lev/fpf-think-mmp/contract/MMP-18#root, spec://ai.lev/fpf-think-mmp/contract/MMP-19#root, spec://ai.lev/fpf-think-mmp/contract/MMP-8#root, spec://ai.lev/fpf-eng-ops/contract/OPS-10-2#root, spec://ai.lev/fpf-eng-ops/contract/OPS-11-1#root, spec://ai.lev/fpf-think-phy/contract/PHY-6#root @status:spec/done",
+      "line": 128,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-10#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:263adb59efe406693a4d37ca9bd1b5bb33f6243079ca99578861f66f860df473",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11 - Construct a Mathematical Model Family from Known Relations",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:794b9da7c758705693f64c84d1cee3eaef2c989d8d4eb549a21186c83826aa24",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:c70733f388e998bfc88e0a5f6371d5cd940d47862ff5d8effc219627a91e3d9d",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:8f6e1a7129291f7a0663e656b010222244462dd3b2e3145f4af29978827ec5ff",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:ff7a7443e9f3be7e89a52e3e3bb0e76e0805963b26779ad8995b34e2a10df8d3",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11:4 - Solution",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#solution"
+    },
+    {
+      "anchor": "locate-the-contribution-that-may-change",
+      "content_hash": "sha256:082cd343c5d8f91f1eceb75a47305f2bdc87c2b73fae6bfb5c0cf2dcb593a67e",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11:4.1 - Locate the contribution that may change",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#locate-the-contribution-that-may-change"
+    },
+    {
+      "anchor": "construct-the-permitted-variation",
+      "content_hash": "sha256:0247517e3822e41aa69109ba3e0605b72f4105a3c0167ab710d6aa79d487af92",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11:4.2 - Construct the permitted variation",
+      "line": 51,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#construct-the-permitted-variation"
+    },
+    {
+      "anchor": "choose-the-representation-and-its-range",
+      "content_hash": "sha256:573f16f904d297a3cc93d2fceb965eef2dbd6d144df0d0c7aaa2cd36a3cb8eed",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11:4.3 - Choose the representation and its range",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#choose-the-representation-and-its-range"
+    },
+    {
+      "anchor": "put-the-family-into-the-model-before-using-its-fit",
+      "content_hash": "sha256:071fd0934fdcf74e32b717a458bf3c7af54b29fdda8fd5b558e421d62088f243",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11:4.4 - Put the family into the model before using its fit",
+      "line": 73,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#put-the-family-into-the-model-before-using-its-fit"
+    },
+    {
+      "anchor": "determine-which-remaining-differences-matter",
+      "content_hash": "sha256:b838c8189cacd876560dbbec96db2f7d3e0256be26b00ce46a0e52c41b87b8f8",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11:4.5 - Determine which remaining differences matter",
+      "line": 83,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#determine-which-remaining-differences-matter"
+    },
+    {
+      "anchor": "use-the-consequence-or-revise-the-family",
+      "content_hash": "sha256:dc8ffb949468cf3b20adc928c23367a1c703cd3f78d47fb468056e538fee34a1",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11:4.6 - Use the consequence or revise the family",
+      "line": 93,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#use-the-consequence-or-revise-the-family"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:3db7d8290882d8e9dd32180418b9fca680a71479a5770e9eaa879c33d320519e",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11:7 - Conformance Checklist",
+      "line": 101,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:e48171a2545f633feb346dd5017ad10287fd14f6fbddcb0cc6bae7c6b837a3e5",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11:9 - Consequences",
+      "line": 112,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:40dcaf6bb6aa1bc7c485e960e247b76a37d0ed065f9b3f4561ca95de0d237ddf",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "MMP.11:12 - Relations",
+      "line": 118,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:15c7a195bc8e980221a22e150106cf5d13dd1ea017f78f14295650c78883dbfa",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "Dependencies",
+      "line": 128,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:81b6470c9b2498f47b012f7824572843344a3c23b7281df85d7acb5d2dccdd3c",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-think-mmp/contract/MMP-10#root for admissible representation; spec://ai.lev/fpf-spec/contract/A-3-3-TR#root for state; spec://ai.lev/fpf-spec/contract/C-16-IR#root for observation-based inference; spec://ai.lev/fpf-spec/contract/C-28-MR#root for intervention; spec://ai.lev/fpf-think-mmp/contract/MMP-9#root for reduction. @status:spec/done",
+      "line": 130,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:813b439e9084a098261c7e56f86ae12f519ac138e3ff7cef4e4d352d4fc7ca90",
+      "doc_path": "contract/MMP-11",
+      "file": "vibevm/vibespecs/contract/MMP-11.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-dtm/contract/DTM-6#root, spec://ai.lev/fpf-think-mmp/contract/MMP-10#root, spec://ai.lev/fpf-think-mmp/contract/MMP-12#root, spec://ai.lev/fpf-think-mmp/contract/MMP-17#root, spec://ai.lev/fpf-think-mmp/contract/MMP-7#root, spec://ai.lev/fpf-think-mmp/contract/MMP-9#root, spec://ai.lev/fpf-think-phy/contract/PHY-4#root @status:spec/done",
+      "line": 131,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-11#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:d3d6146551aa1db9093e62f833c449bf6701c76f5b0e57152b40a63bbf852c63",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12 - Formulate an Inverse Problem and Choose Whether and How to Use Regularization",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:c35349c6d0d7abdfe63cd5ec6336e3075c404695abf743a7a3f9f8ceffaa6f9e",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:a5ebbedd20ec5e2ac7e55769766ef78ae9f69bb428e9c15acd1971768f0a0bee",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12:2 - Problem",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:0ffb9f3f3d092aeeaa681b83dbc14cba13064df2769af3cd2b545454ccf2b61a",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12:3 - Forces",
+      "line": 31,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:bbcf4cda78b7a19301cc4d7be9db37149de1d65d74eaf604f67c1fef86df5010",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12:4 - Solution",
+      "line": 41,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#solution"
+    },
+    {
+      "anchor": "construct-the-forward-relation-from-the-modeled-situation",
+      "content_hash": "sha256:a973196309dcc04f79e78d0792af32da39d73f36e11bb608484c9bf79649b95a",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12:4.1 - Construct the forward relation from the modeled situation",
+      "line": 45,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#construct-the-forward-relation-from-the-modeled-situation"
+    },
+    {
+      "anchor": "locate-the-part-that-needs-regularization",
+      "content_hash": "sha256:1ec9eb2cd24bcd574b69610058657bf758bdd96b2bf3d60573fb35b48d1a4c93",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12:4.2 - Locate the part that needs regularization",
+      "line": 59,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#locate-the-part-that-needs-regularization"
+    },
+    {
+      "anchor": "turn-the-added-structure-into-a-reconstruction-problem",
+      "content_hash": "sha256:45886b5431f6b32ea35aaff71ce3dde554e55798f59f780e1b831bcab7070089",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12:4.3 - Turn the added structure into a reconstruction problem",
+      "line": 71,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#turn-the-added-structure-into-a-reconstruction-problem"
+    },
+    {
+      "anchor": "select-strength-from-the-required-sensitivity-and-tolerated-loss",
+      "content_hash": "sha256:7d5a63ef76319faee54d2c7de357d905b3c20b45215ab1e7ea1f030ade7da1ef",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12:4.4 - Select strength from the required sensitivity and tolerated loss",
+      "line": 97,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#select-strength-from-the-required-sensitivity-and-tolerated-loss"
+    },
+    {
+      "anchor": "separate-recovery-error-from-solving-error",
+      "content_hash": "sha256:09ca0742b3ff879a57c2b26ec592981e37f24f89bc9895708c938ce6accbad22",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12:4.5 - Separate recovery error from solving error",
+      "line": 111,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#separate-recovery-error-from-solving-error"
+    },
+    {
+      "anchor": "return-the-useful-target-and-the-choice-it-depends-on",
+      "content_hash": "sha256:01d4cfa255c2f9622c8564ef9a2318cdbc92fc88a9c43cf2b2ffd06496d2e297",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12:4.6 - Return the useful target and the choice it depends on",
+      "line": 125,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#return-the-useful-target-and-the-choice-it-depends-on"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:43f63b05c4fd5bfe5072b4bea8ac4a84a50058670e07a3555a77b5fa1b16f709",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12:7 - Conformance Checklist",
+      "line": 135,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:73f808f4b0e899f2e29f9bb4110d1099b3d611d7e4f6b0eb04722e009099d054",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12:9 - Consequences",
+      "line": 144,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:d5dc7f3d4fe3e67c70055f1b6eac4cf0f1f51d4f4a4d6145d08169571575647b",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "MMP.12:12 - Relations",
+      "line": 150,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:997c010633146d5478f266725a270559b0e0c3c5f96457059870d0c29db68bcf",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "Dependencies",
+      "line": 159,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:a3511e9ef0964ab0f15529e9f97e41297fb5e438c08a65bb00cf37f767673bb3",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-spec/contract/C-16-IR#root for compatible cases; spec://ai.lev/fpf-think-mmp/contract/MMP-11#root/.7 for the forward and recording relations; spec://ai.lev/fpf-think-mmp/contract/MMP-13#root for inferential uncertainty; CMP for solving the formulated problem. @status:spec/done",
+      "line": 161,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:73a1ad4c62e186da3e548aca9ff204968d739cc0fa047eec4cc4437c286a9446",
+      "doc_path": "contract/MMP-12",
+      "file": "vibevm/vibespecs/contract/MMP-12.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-think-mmp/contract/MMP-13#root @status:spec/done",
+      "line": 162,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-12#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:9bfbe9a308471c243c14fb215f706a71147249dd0a5276902bbda7dd33ffb1a5",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13 - Infer Unknowns Statistically under a Stated Observation Model",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:7080b37ff36cee68f5de8b0395633b81101a51e851b87dcfb2e44311e3890a72",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:c06f1f8daa454f48b17dbc6ad3941c669c97befe24cb80992febe7dc1f52fbf1",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:2 - Problem",
+      "line": 25,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:deee53bd075d4207222ef10a98a1eb9d029920412514604702b6e930fa6f4c91",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:3 - Forces",
+      "line": 33,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:0c7bcf44a92fc3a5db8583efce72df8fdb9acd676998dcd22a2bb88866745e6f",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:4 - Solution",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#solution"
+    },
+    {
+      "anchor": "fix-the-target-before-choosing-a-fitting-routine",
+      "content_hash": "sha256:4afbd9a0c8eeae4be2e3da13a2fe9dc1454fd01e6de2678ac2bcc1ed1dc7784b",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:4.1 - Fix the target before choosing a fitting routine",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#fix-the-target-before-choosing-a-fitting-routine"
+    },
+    {
+      "anchor": "recover-the-law-and-the-assumptions-being-added",
+      "content_hash": "sha256:a029b42f35a97e29bab3ecaaae67146ad62e22d419eebbd55cfe4591b85f0788",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:4.2 - Recover the law and the assumptions being added",
+      "line": 55,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#recover-the-law-and-the-assumptions-being-added"
+    },
+    {
+      "anchor": "construct-an-estimator-and-its-frequentist-uncertainty-when",
+      "content_hash": "sha256:e1a888adaea331b535dcee1db55afe6a59b3f56d30dc40a9d0564e7fa91104b6",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:4.3 - Construct an estimator and its frequentist uncertainty when needed",
+      "line": 67,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#construct-an-estimator-and-its-frequentist-uncertainty-when"
+    },
+    {
+      "anchor": "construct-a-posterior-when-conditional-probability-is-needed",
+      "content_hash": "sha256:2190bb261bbd13dea0c36f483c9ad6942afce3503395f56a6d5c4916f05dde3c",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:4.4 - Construct a posterior when conditional probability is needed",
+      "line": 87,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#construct-a-posterior-when-conditional-probability-is-needed"
+    },
+    {
+      "anchor": "propagate-uncertainty-to-the-actual-receiving-quantity",
+      "content_hash": "sha256:c4b4ba3b384b9e4c8ef36eef3375da87bbc207abeb0321d98aecb5f597baaf07",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:4.5 - Propagate uncertainty to the actual receiving quantity",
+      "line": 114,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#propagate-uncertainty-to-the-actual-receiving-quantity"
+    },
+    {
+      "anchor": "test-the-claimed-consequence-and-revise-the-assumption-that",
+      "content_hash": "sha256:dda5db70c50413d625bab649fa9cb82634c91b1c27005728f11f0eedb8a61011",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:4.6 - Test the claimed consequence and revise the assumption that matters",
+      "line": 134,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#test-the-claimed-consequence-and-revise-the-assumption-that"
+    },
+    {
+      "anchor": "return-the-conclusion-at-its-established-meaning",
+      "content_hash": "sha256:afcc9e77bb06d11e4fa25a71f4d7d8c271e1ab94dfbd2df31b55950168937fc6",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:4.7 - Return the conclusion at its established meaning",
+      "line": 144,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#return-the-conclusion-at-its-established-meaning"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:bbffa6c79b1ce10f0dde0a0ad4b56bf1efdc9daec14a6c67062db7c504a29399",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:7 - Conformance Checklist",
+      "line": 152,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:f15838dcfc3db0972d0af01317ae140cd4232b36cabd1b82b94be75806eeb00c",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:9 - Consequences",
+      "line": 161,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:82221fde52f3fb9b6b413db7408f653bf3e07d59ced3c814a323e9fde9c6945f",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "MMP.13:12 - Relations",
+      "line": 167,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:5bf575d0b5d79f6fd00e2fc73d1abdc56aed610c53af1ed5fe43762d855d228b",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "Dependencies",
+      "line": 177,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:fac4aeff049a9a51a31dea6909ca0ffd870acebc49abc6b7ef5b4e052d212811",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-think-mmp/contract/MMP-7#root for the record law; spec://ai.lev/fpf-think-mmp/contract/MMP-12#root/spec://ai.lev/fpf-spec/contract/C-16-IR#root for ambiguity; spec://ai.lev/fpf-think-cmp/contract/CMP-8#root/.9 for numerical computation; spec://ai.lev/fpf-think-mmp/contract/MMP-14#root/.8 for prediction checks and decisions. @status:spec/done",
+      "line": 179,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:df99fad8f6e199995189cee779a389b09b03d46c35d6bd7e552df05d99b93d04",
+      "doc_path": "contract/MMP-13",
+      "file": "vibevm/vibespecs/contract/MMP-13.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-think-mmp/contract/MMP-12#root @status:spec/done",
+      "line": 180,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-13#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:f7e693c740016e62792ce528e6cb06cf73896ba9d34997e342a037a77e2dd846",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14 - Find and Repair a Mathematical Model's Failed Predictions",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:7511a5d0e8647ed9f02b86ab37dda06b93df0bb6d5190266ac72541e09f55b35",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:0b54ca54eb720a45200f6e7f714b2314763514da9b63226f7be56f60465c4840",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14:2 - Problem",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:7f70335d8d52f7065af3466ece201ae2ec63bbfa4657bc7bb2e93f77878b9756",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14:3 - Forces",
+      "line": 31,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:1b624bc4ff227293650508257856705c2ad13224c87bb4109ab545c6d3d0fe68",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14:4 - Solution",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#solution"
+    },
+    {
+      "anchor": "choose-the-prediction-and-the-discrepancy-together",
+      "content_hash": "sha256:280e99d931feb97beba9e606925abda7b493c740da304dd02fe6fcfa2166bfa5",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14:4.1 - Choose the prediction and the discrepancy together",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#choose-the-prediction-and-the-discrepancy-together"
+    },
+    {
+      "anchor": "generate-the-comparison-the-question-requires",
+      "content_hash": "sha256:87aa37fa82eaa554d5ed8784d210bc39b350d08cdca3b84622b9f65a90fad7fd",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14:4.2 - Generate the comparison the question requires",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#generate-the-comparison-the-question-requires"
+    },
+    {
+      "anchor": "interpret-the-difference-at-the-comparison-s-actual-strength",
+      "content_hash": "sha256:0099eb3e12bbc6bc3ad1995b0e3db6c16427ea8a1653f3f5095cfd8ff4f83281",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14:4.3 - Interpret the difference at the comparison's actual strength",
+      "line": 84,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#interpret-the-difference-at-the-comparison-s-actual-strength"
+    },
+    {
+      "anchor": "change-the-part-that-explains-the-consequential-mismatch",
+      "content_hash": "sha256:c9fdc27edd339e7ccd5acfa108b4e111620c364ddffe4d1ace932272d390a2fd",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14:4.4 - Change the part that explains the consequential mismatch",
+      "line": 96,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#change-the-part-that-explains-the-consequential-mismatch"
+    },
+    {
+      "anchor": "recalculate-the-consequence-and-examine-the-repair",
+      "content_hash": "sha256:2efc24709aef592d8f1a45ec89fffb9c9c38922b46fc32aff45f74c40c2ce30b",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14:4.5 - Recalculate the consequence and examine the repair",
+      "line": 115,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#recalculate-the-consequence-and-examine-the-repair"
+    },
+    {
+      "anchor": "return-the-model-and-its-changed-use",
+      "content_hash": "sha256:990779c2b96a77266aa94f56719a0af8c5f97d0804689f654ae0302412738a24",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14:4.6 - Return the model and its changed use",
+      "line": 125,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#return-the-model-and-its-changed-use"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:e99bfa088d0ee1eab1bce0a32ccb245506d22d9abc7d7b4906be8e0270765380",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14:7 - Conformance Checklist",
+      "line": 133,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:a624ae36a167139c12b8f46703931c4653c9c3064dbacb347456cd0e8ca5be69",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14:9 - Consequences",
+      "line": 143,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:64332320c5185ebc4f8616d182eb2539e49f4428eba6d1064cd77ad22b5c0ba0",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "MMP.14:12 - Relations",
+      "line": 149,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:d37a86e11f18ab0be068642e5cfc24c11b97ba77661292c7feddebe6332233d1",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "Dependencies",
+      "line": 160,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:3abff2b89f4baab3d6501020b533ea192b00855b59d3595d607e5e1a7cd5f4cc",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-think-mmp/contract/MMP-7#root/.11/.13 for comparable predictions; spec://ai.lev/fpf-spec/contract/B-5-RR#root for affected revision; spec://ai.lev/fpf-think-cmp/contract/CMP-8#root/.9 for numerical error; spec://ai.lev/fpf-spec/contract/C-11-DUA#root for worthwhile further checking. @status:spec/done",
+      "line": 162,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:557d61076daa81b23634d0067ddc75c2df0e0c281275bbb394cc4ceb45a181ae",
+      "doc_path": "contract/MMP-14",
+      "file": "vibevm/vibespecs/contract/MMP-14.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-think-mmp/contract/MMP-13#root, spec://ai.lev/fpf-think-mmp/contract/MMP-17#root @status:spec/done",
+      "line": 163,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-14#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:dc86a6e45034dddf1331ad7afd458e93b05ab796257cf6c239c38de110731d64",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15 - Identify an Intervention Effect from Available Data",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:5427f80d4eccf22af88fc11b1388d8a85a9267a556bc7fc9670ac8739cebc3bc",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:10331100005f9333b286d8c78ebecc8e3879a8a4508ebefa3b7302d123f0f0c1",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15:2 - Problem",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:13a4451308d7ca91862f23704357204b79771244ebfb8db552fa6060faa08f20",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:13cfc175b43634d92ed393137fc5d806cd6fdc26c05652bedc4918e1438ba350",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15:4 - Solution",
+      "line": 37,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#solution"
+    },
+    {
+      "anchor": "specify-the-causal-quantity-and-what-counts-as-the-same",
+      "content_hash": "sha256:06f2838cfe87d96bd05f3f508b6245643e949aebd41bf2109e783db18da971bb",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15:4.1 - Specify the causal quantity and what counts as the same intervention",
+      "line": 41,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#specify-the-causal-quantity-and-what-counts-as-the-same"
+    },
+    {
+      "anchor": "recover-the-available-laws-and-the-admissible-causal-models",
+      "content_hash": "sha256:3280fda1abe7176ff8c1b06513290f80f6db8365f57c834db0f3131fc8289f55",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15:4.2 - Recover the available laws and the admissible causal models",
+      "line": 55,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#recover-the-available-laws-and-the-admissible-causal-models"
+    },
+    {
+      "anchor": "derive-an-expression-using-the-simplest-sufficient-route",
+      "content_hash": "sha256:f62af07629f6969a70cbb59786d7965a087b816b6ce7a36dcde0016fa4bda33d",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15:4.3 - Derive an expression, using the simplest sufficient route",
+      "line": 65,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#derive-an-expression-using-the-simplest-sufficient-route"
+    },
+    {
+      "anchor": "carry-selection-transport-and-support-through-the-expression",
+      "content_hash": "sha256:5a85ebedaed20a77137c49e292247b435f4ac0b64ada547b061e992483b6ac35",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15:4.4 - Carry selection, transport and support through the expression",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#carry-selection-transport-and-support-through-the-expression"
+    },
+    {
+      "anchor": "distinguish-a-proof-of-ambiguity-from-an-unfinished-search",
+      "content_hash": "sha256:556f20ffd855acde45dc138293176e662df76f653e4476d08ca14c0a7b8145d5",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15:4.5 - Distinguish a proof of ambiguity from an unfinished search",
+      "line": 113,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#distinguish-a-proof-of-ambiguity-from-an-unfinished-search"
+    },
+    {
+      "anchor": "return-the-sufficient-result-and-propagate-consequential-changes",
+      "content_hash": "sha256:354de71d16459cf0fb5cebcbb42a644170115e9a6385d7270aef5cc23ada2952",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15:4.6 - Return the sufficient result and propagate consequential changes",
+      "line": 123,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#return-the-sufficient-result-and-propagate-consequential-changes"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:80c8d1ab02c7251c49646252b03bb789985508969d633d973ae21bf98afac2a6",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15:7 - Conformance Checklist",
+      "line": 133,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:1c7f426d2fda3ae0493daa8e6dedea72c05bb8b20219dd48a8c28655902ec83d",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15:9 - Consequences",
+      "line": 145,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:61c3becfbe87e38dee3cddc8a994b6ca0cfc51ee815c37443dee2af5639e6a34",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "MMP.15:12 - Relations",
+      "line": 153,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:982dda5477698e492b5395aa86eb7e5bfb72179d069ef47628e3e9bb39e50702",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "Dependencies",
+      "line": 165,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:2ae87faae9106147fb0c7b14f52af9e67196d2b427b033e7dd009733df409e8b",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-spec/contract/C-28-MR#root for intervention meaning; spec://ai.lev/fpf-think-mmp/contract/MMP-7#root/.13 for recording and estimation; spec://ai.lev/fpf-spec/contract/C-16-IR#root for compatible possibilities; spec://ai.lev/fpf-think-mmp/contract/MMP-16#root for worthwhile distinguishing observations. @status:spec/done",
+      "line": 167,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:9d107ae293f6ad7868dd2166c455ae188a14a6a6afb09897d7210c4a25ff0860",
+      "doc_path": "contract/MMP-15",
+      "file": "vibevm/vibespecs/contract/MMP-15.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-mkt/contract/MKT-10#root, spec://ai.lev/fpf-think-mmp/contract/MMP-19#root @status:spec/done",
+      "line": 168,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-15#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:341920dce51d519e01d7a6596d1e4103fd686d78c60c92b79be34c59de520680",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16 - Design Observations to Separate Mathematical Model Alternatives",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:e569ab2a4a466d36cd9dca9107eb2214847bf3cd25f686b6e38e943032dd8d1c",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:3ee341898a478a35adf20cbd94eb0947e7bab3bf848c2cbb0cc8defbb823716d",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16:2 - Problem",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:c69f1c0edf0a7f5e90fb05d40b903c68d44de5a27599f9ebe57264cdb5a79308",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16:3 - Forces",
+      "line": 31,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:644a616c780c8cac7b38086ce870a498998b48af5dea38d2db83060d277232b4",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16:4 - Solution",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#solution"
+    },
+    {
+      "anchor": "locate-the-consequential-disagreement",
+      "content_hash": "sha256:a8f5a237a786297689232faeb647e0e791df86dc59b1d53faa59f24eda51dc74",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16:4.1 - Locate the consequential disagreement",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#locate-the-consequential-disagreement"
+    },
+    {
+      "anchor": "construct-the-law-of-the-obtainable-records",
+      "content_hash": "sha256:867dd7042c9ab712d636642891610d193a08829708d22fd57b234e3a7a305446",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16:4.2 - Construct the law of the obtainable records",
+      "line": 54,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#construct-the-law-of-the-obtainable-records"
+    },
+    {
+      "anchor": "find-what-a-design-can-distinguish",
+      "content_hash": "sha256:281421696e11d5b848ee2add43cf25f6ef8732367dd41bfe55894a82bd9d215c",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16:4.3 - Find what a design can distinguish",
+      "line": 69,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#find-what-a-design-can-distinguish"
+    },
+    {
+      "anchor": "construct-the-design-criterion-from-the-receiving-use",
+      "content_hash": "sha256:c314263b8e42f35c008519dda01aff2b8a34b2b53265b9f10198aed1a8fcbe16",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16:4.4 - Construct the design criterion from the receiving use",
+      "line": 79,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#construct-the-design-criterion-from-the-receiving-use"
+    },
+    {
+      "anchor": "construct-and-compare-attainable-designs",
+      "content_hash": "sha256:a784c6e5f0c3bef18c8e8340da90a7a4f6a06564adbed1c6718b81337e7642e5",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16:4.5 - Construct and compare attainable designs",
+      "line": 103,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#construct-and-compare-attainable-designs"
+    },
+    {
+      "anchor": "use-the-result-and-reopen-the-implicated-assumption",
+      "content_hash": "sha256:72e2cfe9e0bcd66258707c07029537bc3d23994460cd51a30e120ae512959d91",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16:4.6 - Use the result and reopen the implicated assumption",
+      "line": 113,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#use-the-result-and-reopen-the-implicated-assumption"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:f512669820c56ee9d791bcf3b49a050d9340b5f3b5acd53d873a103d4ee5152e",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16:7 - Conformance Checklist",
+      "line": 123,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:638ae14844f19d54076cc26fdff1d95636bbc363f0a1d7dc6338fd52af6085cb",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16:9 - Consequences",
+      "line": 137,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:0d3d0b2d29109dc63eb1f6432709cc3fcb84fc229b5ef05ee7c25b3c4884f144",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "MMP.16:12 - Relations",
+      "line": 145,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:1b0a6355650c43c2ef8e755105ff45dce227063c7d22de91e0ea96b7555aae53",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "Dependencies",
+      "line": 158,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:da0d83c3ef82c6ae9da7bd534aa7eaa635f0b93ab305bf6f82f6126291d8b1b9",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-think-mmp/contract/MMP-7#root/.11/.12/.13 for predicted record laws; spec://ai.lev/fpf-think-mmp/contract/MMP-8#root/.8.SD for decisions; spec://ai.lev/fpf-spec/contract/C-11-DUA#root for worthwhile further work; subject methods for realization. @status:spec/done",
+      "line": 160,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:3a55ee7dbfe9c051e9b2972f38bf0057d7570da7c37dd3b0c2307d8849d7dc90",
+      "doc_path": "contract/MMP-16",
+      "file": "vibevm/vibespecs/contract/MMP-16.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-dtm/contract/DTM-5#root, spec://ai.lev/fpf-eng-dtm/contract/DTM-7#root, spec://ai.lev/fpf-think-mmp/contract/MMP-15#root @status:spec/done",
+      "line": 161,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-16#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:9c70eb662391b751561abee1071e08fd65561b5533eede2eba009d00464864b7",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17 - Construct a Surrogate for Selected Model Responses",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:24bb9bc6834ce73d7a77dd24097fa4f4f5529a3d27e187b48d1a10154f406fb3",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:8642803157402de50f1bd269237ef2153b1d41b3ab08dcfb72a116acba0e54f2",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17:2 - Problem",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:1d9bc0a017997989741b77409e96fa8ae6164ed984f387c4694ce2bf9a807228",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:d99ab7f6a2a8c8eeff20f1c3ffd651a31cb0c718135111eca569fd8b1c2ddcce",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17:4 - Solution",
+      "line": 40,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#solution"
+    },
+    {
+      "anchor": "select-the-response-and-the-input-region",
+      "content_hash": "sha256:52c22b7c413a8ea448bcbc1f287ea81ba8893b646060953160f4e72df96ea738",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17:4.1 - Select the response and the input region",
+      "line": 44,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#select-the-response-and-the-input-region"
+    },
+    {
+      "anchor": "obtain-construction-cases-that-can-distinguish-useful",
+      "content_hash": "sha256:006620c1ad6b9dc08bfc3b07c1b669ed38bf6047e683d2bd1c3d7cf0296bbdc3",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17:4.2 - Obtain construction cases that can distinguish useful replacements",
+      "line": 58,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#obtain-construction-cases-that-can-distinguish-useful"
+    },
+    {
+      "anchor": "construct-an-evaluable-replacement-with-the-needed-structure",
+      "content_hash": "sha256:a0145786bea81baf4451db5ad35f60af4fdaa8af8119c4fd6457531b8c3c556e",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17:4.3 - Construct an evaluable replacement with the needed structure",
+      "line": 70,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#construct-an-evaluable-replacement-with-the-needed-structure"
+    },
+    {
+      "anchor": "locate-errors-and-losses-that-change-the-receiving-use",
+      "content_hash": "sha256:0a4e9e2d830e895d83dd7492e8bbfcf81279e26159d2bb553a40dcfb8c6e5bc0",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17:4.4 - Locate errors and losses that change the receiving use",
+      "line": 106,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#locate-errors-and-losses-that-change-the-receiving-use"
+    },
+    {
+      "anchor": "refine-combine-or-return-where-the-difference-matters",
+      "content_hash": "sha256:0288a0e1336db2c20693443eab8faab2f1e539f45d73d2611493dcb07e73ca61",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17:4.5 - Refine, combine or return where the difference matters",
+      "line": 124,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#refine-combine-or-return-where-the-difference-matters"
+    },
+    {
+      "anchor": "carry-the-substitution-into-continued-use",
+      "content_hash": "sha256:58c0ae410c3ce91f5fd9fc0454ad60fda3eb5317eb2ec0d0aec7f693ad4b23b1",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17:4.6 - Carry the substitution into continued use",
+      "line": 134,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#carry-the-substitution-into-continued-use"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:c2c919f673c8c17cb19ffded2feab007dbf1e7cf36f3a84fc2f24c2817671fb7",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17:7 - Conformance Checklist",
+      "line": 142,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:5fd89b562adc6afe8d1237c910d90deeec3bb06c4c4a4006fee50f99d1ec75f3",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17:9 - Consequences",
+      "line": 156,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:d3b17ff39b3ea727b383999425dcc742a5fca0fbe5589d51463e95d5e153944f",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "MMP.17:12 - Relations",
+      "line": 162,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:a186e20cb2e846740c9c1cd42d5340cb807417fe56baf1043e35653eb1d35121",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "Dependencies",
+      "line": 172,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:08a21c4c7991e93a7c8a58c30c0b8b03315370fef3f0695fbb5008e5dbbb18f6",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-think-mmp/contract/MMP-11#root for retained structure; spec://ai.lev/fpf-think-cmp/contract/CMP-7#root/.6 for learning and updates; spec://ai.lev/fpf-think-mmp/contract/MMP-14#root for consequential mismatch; spec://ai.lev/fpf-think-mmp/contract/MMP-18#root for coupled use. @status:spec/done",
+      "line": 174,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:1dacd634ad355ec9d97f3eb531bdb2e72c8309b43fc84e1bb17cb4ea3b34fb11",
+      "doc_path": "contract/MMP-17",
+      "file": "vibevm/vibespecs/contract/MMP-17.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-syse/contract/SYSE-49#root @status:spec/done",
+      "line": 175,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-17#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:08d995435bedd6533ab383abede17615395b857b5fd0a3279f0f3924c6d6e7a7",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18 - Couple Models with Compatible Exchanges and Scales",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:2aaf40630b9d4d731398dd54651ea43f0b80b9deefbaf2553933cd10cffaac5f",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:75991adc843433305a67483a52a84993216cc4f774e0049df0f10f92327d9044",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18:2 - Problem",
+      "line": 25,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:29a32bb0de28a54928a70ed81b573b19b94d3d93f6fae2a74d59412ab1b28aad",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18:3 - Forces",
+      "line": 31,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:cf2642cc8cd9c7729058d3153a01a458ec578d5b63a9542d406bb3017c0c0985",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18:4 - Solution",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#solution"
+    },
+    {
+      "anchor": "identify-what-the-models-share-and-what-they-exchange",
+      "content_hash": "sha256:4ed0d6bc6695360bd3b0a5ce450fc8c6b5aeb41acd180fc190d4e7e3151e2b9b",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18:4.1 - Identify what the models share and what they exchange",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#identify-what-the-models-share-and-what-they-exchange"
+    },
+    {
+      "anchor": "construct-the-interface-relation",
+      "content_hash": "sha256:214a4d50a9e3b730ecd2b8bb6c7c5dcca737781f1fb0a5bf5fd8ef47c1613e0a",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18:4.2 - Construct the interface relation",
+      "line": 56,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#construct-the-interface-relation"
+    },
+    {
+      "anchor": "restore-what-the-receiving-scale-needs",
+      "content_hash": "sha256:7dedaf7aea2263aeebfc3875ba8e86721f5f32dc0dd429d1060c892d1395f786",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18:4.3 - Restore what the receiving scale needs",
+      "line": 68,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#restore-what-the-receiving-scale-needs"
+    },
+    {
+      "anchor": "impose-the-joint-conditions-before-choosing-execution-order",
+      "content_hash": "sha256:dd8dfe3c984be7ae0176f6dbea78bb8c5f32bf1ea4142b90d18ec6cc7bfd07d9",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18:4.4 - Impose the joint conditions before choosing execution order",
+      "line": 84,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#impose-the-joint-conditions-before-choosing-execution-order"
+    },
+    {
+      "anchor": "combine-uncertainty-without-duplicating-information",
+      "content_hash": "sha256:d9a5585b183f78b9094e14f9879f2524a0736c27eadc9e9dea9a57b21c080619",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18:4.5 - Combine uncertainty without duplicating information",
+      "line": 94,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#combine-uncertainty-without-duplicating-information"
+    },
+    {
+      "anchor": "return-the-coupled-result-and-localize-a-failure",
+      "content_hash": "sha256:dcedb5e804f3ad8f4b72b694d5e6b507a68de80e1051e72ebc0d693fab7a1b7a",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18:4.6 - Return the coupled result and localize a failure",
+      "line": 112,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#return-the-coupled-result-and-localize-a-failure"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:43c83853593e3202cfd5d336beecc1389c70831968284a174cc4bfe735628002",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18:7 - Conformance Checklist",
+      "line": 122,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:af3cb336a7b705572ea9ba8b5434cc8135925d313230dfb596201560ffa62b12",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18:9 - Consequences",
+      "line": 137,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:3c24c1197cb70a300c7d6a345b9bf9ec1d32537deb1e0b0019dd3141cc460033",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "MMP.18:12 - Relations",
+      "line": 145,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:2daca2381e3eb535c43a3e6a199edfe29c5449b796d12b1af8b2ab191cefa4ff",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "Dependencies",
+      "line": 159,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:562ec5037ee9c824821f629d4a77b8b39f8d1d3bbc98cf5423e06f2278d1522a",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-spec/contract/A-3-3-TR#root and spec://ai.lev/fpf-think-mmp/contract/MMP-10#root for joint conditions; spec://ai.lev/fpf-think-math/contract/MATH-18#root for retained consequences; spec://ai.lev/fpf-think-mmp/contract/MMP-9#root/.17 for missing contributions; spec://ai.lev/fpf-think-cmp/contract/CMP-8#root/.14 for interacting computation. @status:spec/done",
+      "line": 161,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:1e693e34ebef5a91f4ea86bcc165c8b9be0e08db11eee16646d7d5f0c083d5e0",
+      "doc_path": "contract/MMP-18",
+      "file": "vibevm/vibespecs/contract/MMP-18.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-dtm/contract/DTM-3#root, spec://ai.lev/fpf-eng-dtm/contract/DTM-9#root, spec://ai.lev/fpf-think-mmp/contract/MMP-17#root @status:spec/done",
+      "line": 162,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-18#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:53965387a6c63afaa541640e120ae32d0b3966c2faf50502e6f04108276b90f9",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19 - Construct and Bound a Mathematical Counterfactual Comparison under a Causal Model",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:7c4046971998f12816c019dde62fa92d80f7590e13be569159f7eeb36e419275",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:0e2e18ef5b5702a8df0daf77fc0a08f49eb5f9679700d0ce23df17550e1ff944",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:3ffb1c13dfa19786b0d5eb4ea62218a30bb7e4d6337272240c95c68ac9cdf78b",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:af5b60355e56f84ad3855939097adbfa14c0c75847f547b57da64638efb805a3",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19:4 - Solution",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#solution"
+    },
+    {
+      "anchor": "state-what-the-comparison-must-answer",
+      "content_hash": "sha256:907242782d1e4a92e8b1b4c89ab84f66c29a6ae7689e31393c9404453845077c",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19:4.1 - State what the comparison must answer",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#state-what-the-comparison-must-answer"
+    },
+    {
+      "anchor": "construct-one-common-basis-for-the-alternatives",
+      "content_hash": "sha256:322f3f0789b1fae092e259779cfe20764d0cabda5b48034e252bad770f8e47d7",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19:4.2 - Construct one common basis for the alternatives",
+      "line": 51,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#construct-one-common-basis-for-the-alternatives"
+    },
+    {
+      "anchor": "infer-case-conditions-from-the-factual-observations",
+      "content_hash": "sha256:6a99e32f570c6b841dc212960e8c4222fb4c373692f025acae68251abc7da363",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19:4.3 - Infer case conditions from the factual observations",
+      "line": 61,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#infer-case-conditions-from-the-factual-observations"
+    },
+    {
+      "anchor": "evaluate-the-compared-responses-with-that-common-basis",
+      "content_hash": "sha256:a718b76775dae68addeaf7f5b2c593ba5263d6ec5bc32c40d2ccec17da5230c6",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19:4.4 - Evaluate the compared responses with that common basis",
+      "line": 77,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#evaluate-the-compared-responses-with-that-common-basis"
+    },
+    {
+      "anchor": "determine-what-the-available-information-fixes",
+      "content_hash": "sha256:def982bfa53de784a8345b11cb14db2e01323bbe2c0933edaacc6d93bb72de44",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19:4.5 - Determine what the available information fixes",
+      "line": 92,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#determine-what-the-available-information-fixes"
+    },
+    {
+      "anchor": "use-a-sufficient-consequence-and-reopen-the-affected-assumption",
+      "content_hash": "sha256:307987377847a911a04fa76b7b705de5cf404245e37e4134a21361f318a26b27",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19:4.6 - Use a sufficient consequence and reopen the affected assumption",
+      "line": 102,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#use-a-sufficient-consequence-and-reopen-the-affected-assumption"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:42b4da4e26e630947d45e43cdbb57b318fd5b669a23f9675d92a0d490de41ae9",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19:7 - Conformance Checklist",
+      "line": 112,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:ed6d2371f9313b5006af2d8597abfbdd67dbbde604683c4810bbd4727ce860ed",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19:9 - Consequences",
+      "line": 122,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:e2e27037e5ea0f08c5112d6d92deb47c45530ecc1c5f34c917145eaefc260498",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "MMP.19:12 - Relations",
+      "line": 128,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:fdab4b25de98e41eb2d1ebe849fdb564aa282c852fd32c46f5b422c4c6729afa",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "Dependencies",
+      "line": 136,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:5394c2eda5dfa6389340a08c8cd1c19fd2c79eead9a4aa4bca7b56820c852994",
+      "doc_path": "contract/MMP-19",
+      "file": "vibevm/vibespecs/contract/MMP-19.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-spec/contract/C-28-MR#root for changed mechanisms; spec://ai.lev/fpf-think-mmp/contract/MMP-7#root/.13 for factual records and inference; spec://ai.lev/fpf-think-mmp/contract/MMP-15#root for identification; spec://ai.lev/fpf-think-mmp/contract/MMP-10#root/.16 for bounds and useful observations. @status:spec/done",
+      "line": 138,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-19#DEPENDS-ON"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:7b5b51529a409431213200f28c2496e3355eea5348f74f43f22d9951df407739",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "MMP.7 - Construct a Probability Model of the Recorded Data",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:3c7140cf7394443308fac4e51459b28e660a785ebcee348ae38367b12aec9e5b",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "MMP.7:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:44edaf0eaab01fdbb6f0b51c331afab83c78d45a1554faff80e44f23e9da77f4",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "MMP.7:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:7b1b7029997e965143773ede473ec536553f70b4b11946af8d9e51cdc0ae3a8c",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "MMP.7:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:0768bd4f94427b4ad7cccb669925962fc3857c6587e7b21ad3b27f73f836b907",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "MMP.7:4 - Solution",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#solution"
+    },
+    {
+      "anchor": "choose-the-target-and-the-recorded-outcome-separately",
+      "content_hash": "sha256:2ccfee813e0f0b34434ac0a4bdcb77e07bb8f830d123c7e3529fb4c85063e5f8",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "MMP.7:4.1 - Choose the target and the recorded outcome separately",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#choose-the-target-and-the-recorded-outcome-separately"
+    },
+    {
+      "anchor": "construct-the-joint-law-from-the-modeled-dependencies",
+      "content_hash": "sha256:498ad7faf6c1173edac98021758c7695125a6806c617b0b06897e8b06e3e2c1d",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "MMP.7:4.2 - Construct the joint law from the modeled dependencies",
+      "line": 51,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#construct-the-joint-law-from-the-modeled-dependencies"
+    },
+    {
+      "anchor": "obtain-the-law-for-what-was-actually-recorded",
+      "content_hash": "sha256:ce40f75ee0f8883c848f39f1e5e00be1d5da99e283764fdc9df1198db02eee9b",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "MMP.7:4.3 - Obtain the law for what was actually recorded",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#obtain-the-law-for-what-was-actually-recorded"
+    },
+    {
+      "anchor": "connect-the-law-to-inference-and-prediction",
+      "content_hash": "sha256:5808e0fe687a310c665dcf6601c41d7c7880aa453004cabd9086e1743b817110",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "MMP.7:4.4 - Connect the law to inference and prediction",
+      "line": 89,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#connect-the-law-to-inference-and-prediction"
+    },
+    {
+      "anchor": "test-a-consequence-and-revise-the-construction",
+      "content_hash": "sha256:6832bf1a1550cdfb27942bb7d53d2622355c67af43254133c35c0daf444df7df",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "MMP.7:4.5 - Test a consequence and revise the construction",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#test-a-consequence-and-revise-the-construction"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:156c2f0e810811216dc5c38fb713283cb9b42c17d905b225aebbc0df55122355",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "MMP.7:7 - Conformance Checklist",
+      "line": 107,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:427227554823dded6bd8b2a42f89c33987015cabccf91bc5e46ee4d2c8f4d6b5",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "MMP.7:9 - Consequences",
+      "line": 116,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:fc2bc74d7e047ebf5b408f93e1e9f4049a39e04615a90eeb42cbdb6478d4ba07",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "MMP.7:12 - Relations",
+      "line": 120,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:dbe0d1caf5a9fb35a71a41c2243881bd6959466fea21d68641f1ec7bda4e2b9a",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "Dependencies",
+      "line": 125,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:1dfbec7b8f83ee9c4e50729acd7bbe1f71a8a0840ca44fadcc691467a430f904",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-spec/contract/C-16-IR#root for interpretation and inference; spec://ai.lev/fpf-think-mmp/contract/MMP-11#root for unknown relations; spec://ai.lev/fpf-think-mmp/contract/MMP-8#root when the record informs a choice. @status:spec/done",
+      "line": 127,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:aba3225e9315413940a8ed10c598a948cbfdf344262aea1d62290f57f309f059",
+      "doc_path": "contract/MMP-7",
+      "file": "vibevm/vibespecs/contract/MMP-7.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-think-cmp/contract/CMP-7#root, spec://ai.lev/fpf-think-cmp/contract/CMP-9#root, spec://ai.lev/fpf-eng-dtm/contract/DTM-2#root, spec://ai.lev/fpf-think-mmp/contract/MMP-13#root, spec://ai.lev/fpf-think-mmp/contract/MMP-14#root, spec://ai.lev/fpf-think-mmp/contract/MMP-15#root, spec://ai.lev/fpf-think-mmp/contract/MMP-16#root, spec://ai.lev/fpf-think-mmp/contract/MMP-19#root, spec://ai.lev/fpf-think-mmp/contract/MMP-8#root, spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#root, spec://ai.lev/fpf-eng-ops/contract/OPS-10-1#root, spec://ai.lev/fpf-eng-ops/contract/OPS-15-1#root, spec://ai.lev/fpf-think-phy/contract/PHY-8#root @status:spec/done",
+      "line": 128,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-7#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:863dad2c507ff31769172f2d96dce79d90da77a4ec89855ff4c13c0a85de956b",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "MMP.8 - Formulate Information-Dependent Choices Mathematically",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:3dbdb434a2540f3773a19b7c1155aa54ed1529c031843381e59efcbd85b8f1c1",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "MMP.8:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:1e00390febe939578a00f57ab8d9a6c5d44c211ea64cca9e8ec56f3290716ea7",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "MMP.8:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:e342edfb5eff017a0cc25b6347f069b69be3b681ccd473b36a8aa83913e6f54b",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "MMP.8:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:afd4e9c29d5608cdf6f5deca1e8b30cb099f905b6f6319018cc24f97c55e09c4",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "MMP.8:4 - Solution",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#solution"
+    },
+    {
+      "anchor": "name-choices-circumstances-and-consequences",
+      "content_hash": "sha256:4aa6c83fc0d5077f98a2a7e5a239a640cf8c00cfb0c94e03a05f77739e3b5130",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "MMP.8:4.1 - Name choices, circumstances and consequences",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#name-choices-circumstances-and-consequences"
+    },
+    {
+      "anchor": "recover-the-order-and-availability-of-information",
+      "content_hash": "sha256:6d3bbeebdf743f3ceec64c9ab6b3a4340066c5dcdd5354277f5609831290aa52",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "MMP.8:4.2 - Recover the order and availability of information",
+      "line": 51,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#recover-the-order-and-availability-of-information"
+    },
+    {
+      "anchor": "state-the-required-quantifiers-and-performance-criterion",
+      "content_hash": "sha256:0717facbd4680c55c3d2b98221b29bb1af788160b8a4c0c697a7915a7d89d5ce",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "MMP.8:4.3 - State the required quantifiers and performance criterion",
+      "line": 61,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#state-the-required-quantifiers-and-performance-criterion"
+    },
+    {
+      "anchor": "construct-or-refute-a-usable-choice",
+      "content_hash": "sha256:c3c09f5bf8410265ff3c3129129b4eb44b9c6f58bed9d0d8637bbda5eb108df1",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "MMP.8:4.4 - Construct or refute a usable choice",
+      "line": 78,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#construct-or-refute-a-usable-choice"
+    },
+    {
+      "anchor": "interpret-the-result-and-change-the-working-method",
+      "content_hash": "sha256:897d5ea1bac1d456538e1014e00a5b6512d0edec1679f5be34e89c1aaa075d91",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "MMP.8:4.5 - Interpret the result and change the working method",
+      "line": 92,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#interpret-the-result-and-change-the-working-method"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:4234ac4fa9bf8a93a247290b358b3ea65842d6a5175d02ab7d4d1b8f6aa74d0e",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "MMP.8:7 - Conformance Checklist",
+      "line": 100,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:33261c062b0be717996374564da937da4bc404023a08958f661691d49f298405",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "MMP.8:9 - Consequences",
+      "line": 109,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:630d5f7655d9cebb1b03ad45c0fc2e9b9283689df1541fd0ad1fcd8427918d77",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "MMP.8:12 - Relations",
+      "line": 113,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:b973168f3093652061a6e9d2bf210fc3effece85efd2d01bf458f040b9302efe",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "Dependencies",
+      "line": 120,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:d0a1b3dada4004b4c25eff8e8e1d78cdc511b19f0bd6393f3adfa20a08feb823",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-think-mmp/contract/MMP-7#root for reports; spec://ai.lev/fpf-spec/contract/A-3-3-TR#root for change; spec://ai.lev/fpf-think-mmp/contract/MMP-10#root for constraints; ME for changing the corresponding way of working. @status:spec/done",
+      "line": 122,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:80534578a78e31aff4e652c6bac88e8e5a222e47670181d0015ad30bb77c6cc5",
+      "doc_path": "contract/MMP-8",
+      "file": "vibevm/vibespecs/contract/MMP-8.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-think-mmp/contract/MMP-16#root, spec://ai.lev/fpf-think-mmp/contract/MMP-7#root, spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#root, spec://ai.lev/fpf-eng-ops/contract/OPS-8-1#root @status:spec/done",
+      "line": 123,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:28322a04d1260dcbcde638c75d8e268307c1bd5f562941fde730bc024ba7b113",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD - Construct a Sequential Decision Model from Information and Consequences",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:79b071036bdf22d945f1b012422f5521907481d020ea164e42a98282cdeba08e",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:93c46c0d773b21314d53310e483316f600da555eca34888b859e874bf63984eb",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD:2 - Problem",
+      "line": 25,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:cb9a0cfce6ca05fd2ea87a5217285515b157b3fe5162f1fecc4b448ed0cc20b4",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD:3 - Forces",
+      "line": 33,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:eecce530b59fd845202bd85d56f2beedaa1075f9df09428eed223e237d120ad9",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD:4 - Solution",
+      "line": 44,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#solution"
+    },
+    {
+      "anchor": "fix-the-decision-times-and-the-consequence-being-compared",
+      "content_hash": "sha256:bded47302155ffd405ef107da01d4c1a4d2a9e35cd308919796947aecdc035dc",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD:4.1 - Fix the decision times and the consequence being compared",
+      "line": 48,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#fix-the-decision-times-and-the-consequence-being-compared"
+    },
+    {
+      "anchor": "construct-how-an-action-changes-the-world-and-the-available",
+      "content_hash": "sha256:c7054bf45c1812e8a7b2d40099593300ec2d5170a851361f64a01d77a9241d3d",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD:4.2 - Construct how an action changes the world and the available information",
+      "line": 64,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#construct-how-an-action-changes-the-world-and-the-available"
+    },
+    {
+      "anchor": "retain-a-state-sufficient-for-the-selected-continuation",
+      "content_hash": "sha256:81cb11f84ef55c63d61821853e899f28da4992903bc3719c0d67843b2afb73b0",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD:4.3 - Retain a state sufficient for the selected continuation",
+      "line": 81,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#retain-a-state-sufficient-for-the-selected-continuation"
+    },
+    {
+      "anchor": "derive-current-gain-plus-continuation",
+      "content_hash": "sha256:f9f831600daea96dfb28af3506abc7d770b4324e79dc0acb13c0e3ed13d1a1da",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD:4.4 - Derive current gain plus continuation",
+      "line": 101,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#derive-current-gain-plus-continuation"
+    },
+    {
+      "anchor": "match-the-continuation-to-the-uncertainty-and-objective",
+      "content_hash": "sha256:6d2185a4912df2e4e51e01e9d94f0a7da5b7bf0758debbdb3460c73300c9a6a9",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD:4.5 - Match the continuation to the uncertainty and objective",
+      "line": 129,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#match-the-continuation-to-the-uncertainty-and-objective"
+    },
+    {
+      "anchor": "return-the-model-and-propagate-a-consequential-change",
+      "content_hash": "sha256:7cdea9cf5c02e4209b59138f274c1c0d7c72a138c4c45b8565cc7f6c15097728",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD:4.6 - Return the model and propagate a consequential change",
+      "line": 139,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#return-the-model-and-propagate-a-consequential-change"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:97aa96db2f919f8402e41e5a58203d323623ec4d12c2ca33b29e5aba650c0963",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD:7 - Conformance Checklist",
+      "line": 151,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:5ae1e072a26b21d395246ca09910362a82144b002543121a703a9e44c96bb86c",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD:9 - Consequences",
+      "line": 162,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:3d4dc02b038df0dc7be9d2e9a9083515a09b710825e47d9d5a2f9724a6609f4c",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "MMP.8.SD:12 - Relations",
+      "line": 170,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:474ce043776c590f7aa4b5ed5ab9237567dca7aca239db5acb0f386273cda0a6",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "Dependencies",
+      "line": 182,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:7997cf69fbc319b84fcd0fb81e3f06d51f627f7abbf737e777c65e22b8f6d00b",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-think-mmp/contract/MMP-8#root for available choices; spec://ai.lev/fpf-spec/contract/A-3-3-PI#root for predictive state and belief; spec://ai.lev/fpf-think-mmp/contract/MMP-7#root for records; spec://ai.lev/fpf-think-cmp/contract/CMP-3#root/.5/.9 for policy computation. @status:spec/done",
+      "line": 184,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:5e46a48522f2e1ddf14c6b0a49381fd702d4ef1aa078eb65b3eb89fb8d42a3f2",
+      "doc_path": "contract/MMP-8-SD",
+      "file": "vibevm/vibespecs/contract/MMP-8-SD.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-syse/contract/SYSE-47#root @status:spec/done",
+      "line": 185,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-8-SD#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:0d4e47ebd299d9bb7f82a4bfdffd27be6a9fd084fc53451f30eddfb9df130aef",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "MMP.9 - Derive a Reduced Mathematical Model of State Evolution",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:df8d3dfbc3b51da86d2a4895b2f936606d2f7aef88ab6b6ed74df47997aa7d55",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "MMP.9:1 - Problem frame",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:689642acd1b104cb4eb3563b19d76919bfe815d2209d0f3afd529b05afa657c4",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "MMP.9:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:34b6ed463887935d143ba560b255508bb364577e1a5778f257f1d1f93986d4b8",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "MMP.9:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:473374676c8f19a4dc6356d53baceab0cc1cfa291c9c0d65c92967a28cff7ccf",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "MMP.9:4 - Solution",
+      "line": 40,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#solution"
+    },
+    {
+      "anchor": "express-the-retained-result-and-its-change",
+      "content_hash": "sha256:a132817b253876c761f6420c150dbc91acc2e4b21caad6f897ada2f459e00ac0",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "MMP.9:4.1 - Express the retained result and its change",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#express-the-retained-result-and-its-change"
+    },
+    {
+      "anchor": "derive-the-discarded-contribution-before-approximating-it",
+      "content_hash": "sha256:a32fab7aec2b35dc376a090eb43a00a1efe6a6dbaf1b28ff222942d27ce45e1f",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "MMP.9:4.2 - Derive the discarded contribution before approximating it",
+      "line": 64,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#derive-the-discarded-contribution-before-approximating-it"
+    },
+    {
+      "anchor": "choose-and-construct-a-useful-replacement",
+      "content_hash": "sha256:7088fb780af7712c6515fdda658fbeb84a44e1b7a6baa16f531fc443f28a563c",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "MMP.9:4.3 - Choose and construct a useful replacement",
+      "line": 86,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#choose-and-construct-a-useful-replacement"
+    },
+    {
+      "anchor": "evaluate-the-replacement-inside-the-retained-evolution",
+      "content_hash": "sha256:dae0c770ea9d95346b95a13fae52ccdba9bd1d2b42b98b29cfc62db4571c560d",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "MMP.9:4.4 - Evaluate the replacement inside the retained evolution",
+      "line": 102,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#evaluate-the-replacement-inside-the-retained-evolution"
+    },
+    {
+      "anchor": "return-the-result-and-revise-the-construction-when-needed",
+      "content_hash": "sha256:1870712a1a6f3e5c6c5a3cd93c765ecb901cd4efb29668ebec58ea229ffa6186",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "MMP.9:4.5 - Return the result and revise the construction when needed",
+      "line": 112,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#return-the-result-and-revise-the-construction-when-needed"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:4a35e7fff04b5a3ed086fd6b2c62fdd78369dbb99269fc6525740d2688a7073f",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "MMP.9:7 - Conformance Checklist",
+      "line": 120,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:e9b7f3873528578c374da0c0fdeff7eb20bab8af83c4a940567a99a22989e00d",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "MMP.9:9 - Consequences",
+      "line": 129,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:61fa3ab32b6ad7e32f627014769913567e7524cdd0cda3db1353e31bb678cf73",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "MMP.9:12 - Relations",
+      "line": 135,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:41d819242f44a5423702a20cb6b916663db9d3d96377ca05f7ca3c184c2fbfe6",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "Dependencies",
+      "line": 147,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:6e8225fae4d29d8fd0c6105de198a243e21b4c6561d91e0b2465c8b1f570a1f8",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-spec/contract/A-3-3-TR#root for evolution; spec://ai.lev/fpf-spec/contract/C-29-1#root for preserved structure; spec://ai.lev/fpf-think-mmp/contract/MMP-11#root for a replacement family; spec://ai.lev/fpf-spec/contract/B-5-RR#root for affected revision. @status:spec/done",
+      "line": 149,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:ef437b770e7de832a10a6695e246210ad086a599dd64c0f05866ebc7f7375deb",
+      "doc_path": "contract/MMP-9",
+      "file": "vibevm/vibespecs/contract/MMP-9.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-think-mmp/contract/MMP-11#root, spec://ai.lev/fpf-think-mmp/contract/MMP-18#root, spec://ai.lev/fpf-think-phy/contract/PHY-5#root, spec://ai.lev/fpf-think-phy/contract/PHY-8#root @status:spec/done",
+      "line": 150,
+      "uri": "spec://ai.lev/fpf-think-mmp/contract/MMP-9#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:a161f6e6fc21a44f8ef29a2eb258b2a83e838a06129f24a221b7f844212fa74c",
+      "doc_path": "pub/ABOUT",
+      "file": "vibevm/vibespecs/pub/ABOUT.md",
+      "heading": "Mathematical Modeling DPF",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/ABOUT#root"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:ba70b008ceba879ed78d465ba7d614880e918623e3f691377713421d36c775b4",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "Mathematical Modeling - Preface",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#root"
+    },
+    {
+      "anchor": "preface-1",
+      "content_hash": "sha256:00b7dc0ee74eb95462d64f0df3cb95b6f355648d8df43298df33ba98a848ed51",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:1 - Problem frame - Make a mathematical question useful",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#preface-1"
+    },
+    {
+      "anchor": "preface-2",
+      "content_hash": "sha256:cb37f03cea2ba37b6ac5d7aa41f8a266c5a81160ea8e055f878e3408632aea07",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:2 - Problem and forces - Choose what the model must retain",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#preface-2"
+    },
+    {
+      "anchor": "preface-3",
+      "content_hash": "sha256:98f3e98d49d8bd4d1b14e200f5f48950f18167d0296b52d7d0b4e9a2ed96143a",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:3 - Solution - Connect the contributions the question needs",
+      "line": 41,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#preface-3"
+    },
+    {
+      "anchor": "mmp-preface-3-1-form-the-first-account-and-recover-its",
+      "content_hash": "sha256:ee1756fdd3d64eb0e98cecf81a381042f39978ebc6d7aa105d3ffbfa87a22567",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:3.1 - Form the first account and recover its interpretation",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#mmp-preface-3-1-form-the-first-account-and-recover-its"
+    },
+    {
+      "anchor": "mmp-preface-3-2-represent-admissible-objects-and-construct",
+      "content_hash": "sha256:3deea3e3e4c898a495ff0e8a32bf993a053e4710bb0a0a5c2f0f88ebf091da5d",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:3.2 - Represent admissible objects and construct missing relations",
+      "line": 51,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#mmp-preface-3-2-represent-admissible-objects-and-construct"
+    },
+    {
+      "anchor": "mmp-preface-3-3-construct-change-and-observation-together-when",
+      "content_hash": "sha256:bee8d6ce50823bb0afdd90ba431fe1ee354f47bec0a9881647363078897c721c",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:3.3 - Construct change and observation together when they interact",
+      "line": 59,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#mmp-preface-3-3-construct-change-and-observation-together-when"
+    },
+    {
+      "anchor": "mmp-preface-3-4-turn-uncertainty-into-a-question-about",
+      "content_hash": "sha256:3fda44910b8dd014975891181b46a96d7138355c0566ee4c06815c58c90f19da",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:3.4 - Turn uncertainty into a question about available action",
+      "line": 73,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#mmp-preface-3-4-turn-uncertainty-into-a-question-about"
+    },
+    {
+      "anchor": "mmp-preface-3-5-simplify-diagnose-and-revise-for-the-required",
+      "content_hash": "sha256:f2aecc767f09365ec677a0b4494be140aac5b99b2b27b671b184a15eb783e38e",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:3.5 - Simplify, diagnose and revise for the required consequence",
+      "line": 85,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#mmp-preface-3-5-simplify-diagnose-and-revise-for-the-required"
+    },
+    {
+      "anchor": "mmp-preface-3-6-use-the-model-forming-result-across-the-suite",
+      "content_hash": "sha256:4b36c0968a057bd2f41835c40f8b458872fb14f0c0a5cabddc2e186773b4e706",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:3.6 - Use the model-forming result across the Suite",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#mmp-preface-3-6-use-the-model-forming-result-across-the-suite"
+    },
+    {
+      "anchor": "mmp-preface-3-7-constituent-actions-in-ongoing-work",
+      "content_hash": "sha256:34073afceee6b774c0e6f2e19bbeaeccd5adb1046ab9d7a4441f9d1af92dc619",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:3.7 - Constituent actions in ongoing work",
+      "line": 107,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#mmp-preface-3-7-constituent-actions-in-ongoing-work"
+    },
+    {
+      "anchor": "preface-4",
+      "content_hash": "sha256:5fcaa23bb492b9e0cedd6ff5ec26021109f3ce131de6fa300ee611e945f540ca",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:4 - Archetypal Grounding - A report, an instruction and a changed question",
+      "line": 113,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#preface-4"
+    },
+    {
+      "anchor": "mmp-preface-4-1-a-total-is-sufficient-until-the-question-changes",
+      "content_hash": "sha256:f6d4d10cd5d694b25979984fd90026605bee1330adfa073673312cfa131a2f74",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:4.1 - A total is sufficient until the question changes",
+      "line": 121,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#mmp-preface-4-1-a-total-is-sufficient-until-the-question-changes"
+    },
+    {
+      "anchor": "preface-5",
+      "content_hash": "sha256:51a5abaf12386a88464aa513c73aafeaa2f1314a1923508e4b6d1acf3f17a032",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:5 - Conformance Checklist - Can the result do its intended work?",
+      "line": 133,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#preface-5"
+    },
+    {
+      "anchor": "preface-6",
+      "content_hash": "sha256:33927f173718b125e615f61381f87f53ee87efc128aa1b0acf711a42710bfb8e",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:6 - Common Anti-Patterns and How to Avoid Them",
+      "line": 146,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#preface-6"
+    },
+    {
+      "anchor": "preface-7",
+      "content_hash": "sha256:63f28fbf1c81be5d09a3a71781c4be1f1e707577ccd1401b7a046bb4ca554310",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:7 - Consequences, biases and limits",
+      "line": 156,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#preface-7"
+    },
+    {
+      "anchor": "preface-8",
+      "content_hash": "sha256:ee1033f1f89c14c7c480e6b392a126094b8ace8245ffcc26b2e31a0cc8b08505",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:8 - Architectural Rationale - Organize by model-forming operations",
+      "line": 166,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#preface-8"
+    },
+    {
+      "anchor": "preface-9",
+      "content_hash": "sha256:fecd31a69ac404a37cc4392355e81f65a28fd47a0d6c983079f0c0b0ac71a039",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:9 - Source use and currentness",
+      "line": 180,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#preface-9"
+    },
+    {
+      "anchor": "preface-10",
+      "content_hash": "sha256:8e20a2fd5281b4907eaf3ec634f11acb3ec127e961c9b441867dba282333fe08",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:10 - Relations to continued inquiry and work",
+      "line": 190,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#preface-10"
+    },
+    {
+      "anchor": "preface-end",
+      "content_hash": "sha256:e8ba3c74d52048b8758c213c92aaf64ee02bf7d77c1a529f4ab838ff85171c65",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "MMP.Preface:End",
+      "line": 198,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/PREFACE#preface-end"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:0667a4dee9a05078cb0cdb47a8ffc278c489dd619e575ab0dc3e3f04d97ae233",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Mathematical Modeling - Readme",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/README#root"
+    },
+    {
+      "anchor": "practical-entries",
+      "content_hash": "sha256:4778c408c606f1ced13cfb40c3cbc67f6ee59b2e43d06dad10817f7bd762595a",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Practical entries",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/README#practical-entries"
+    },
+    {
+      "anchor": "mmp-observation-to-action-turn-an-observing-model-into-a",
+      "content_hash": "sha256:f356f5260b4c94407de4c6a9370832c3d48e36445c1c0f60bd5385dd408dcdd4",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "MMP-OBSERVATION-TO-ACTION - Turn an observing model into a workable instruction",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/README#mmp-observation-to-action-turn-an-observing-model-into-a"
+    },
+    {
+      "anchor": "worked-connection-for-mmp-observation-to-action",
+      "content_hash": "sha256:e9e8c9ee11a0e0bafc627aa200a7050474ec623fd795cdce8c46b5e3cbfe5ac5",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Worked connection for MMP-OBSERVATION-TO-ACTION",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/README#worked-connection-for-mmp-observation-to-action"
+    },
+    {
+      "anchor": "mmp-records-to-answer-reach-a-usable-conclusion-from-incomplete",
+      "content_hash": "sha256:a2c9ebe03bc014a37f42baccc8924d196298b9c27954c19e3bf044ade2c7a316",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "MMP-RECORDS-TO-ANSWER - Reach a usable conclusion from incomplete and noisy records",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/README#mmp-records-to-answer-reach-a-usable-conclusion-from-incomplete"
+    },
+    {
+      "anchor": "worked-connection-for-mmp-records-to-answer",
+      "content_hash": "sha256:9c573f7b26da75b737f7a4bad02359573e38c8e2ea88d94b4401250798ba881a",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Worked connection for MMP-RECORDS-TO-ANSWER",
+      "line": 51,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/README#worked-connection-for-mmp-records-to-answer"
+    },
+    {
+      "anchor": "mmp-sufficient-answer-answer-the-working-question-before",
+      "content_hash": "sha256:2f43931a10505b8d20250e54c0b66c75753874c5ce0efb628f2088bdf9759d40",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "MMP-SUFFICIENT-ANSWER - Answer the working question before reconstructing every detail",
+      "line": 73,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/README#mmp-sufficient-answer-answer-the-working-question-before"
+    },
+    {
+      "anchor": "worked-connection-for-mmp-sufficient-answer",
+      "content_hash": "sha256:f13ddf00ee0f69ce43a4ad2d2f07a33f10f4ed22a357adfaa74c60d834fff019",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Worked connection for MMP-SUFFICIENT-ANSWER",
+      "line": 81,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/README#worked-connection-for-mmp-sufficient-answer"
+    },
+    {
+      "anchor": "mmp-intervention-and-information-decide-whether-an-observation",
+      "content_hash": "sha256:506275a2f80e47188336c0e9aa434026fb34fc8aee038a2e0a94d0a26e5c0dbc",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "MMP-INTERVENTION-AND-INFORMATION - Decide whether an observation will improve the next action",
+      "line": 95,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/README#mmp-intervention-and-information-decide-whether-an-observation"
+    },
+    {
+      "anchor": "worked-connection-for-mmp-intervention-and-information",
+      "content_hash": "sha256:358c03ba68b5eb99b598184ec90cf27a181256f686c8be2b02da792e1961aab5",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Worked connection for MMP-INTERVENTION-AND-INFORMATION",
+      "line": 103,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/README#worked-connection-for-mmp-intervention-and-information"
+    },
+    {
+      "anchor": "mmp-replace-and-couple-use-cheaper-models-without-losing-the",
+      "content_hash": "sha256:42b1241d77dca8a66c8c81ca501219f241e5397a04d5daabcf9234e0545bf91b",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "MMP-REPLACE-AND-COUPLE - Use cheaper models without losing the combined answer",
+      "line": 130,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/README#mmp-replace-and-couple-use-cheaper-models-without-losing-the"
+    },
+    {
+      "anchor": "worked-connection-for-mmp-replace-and-couple",
+      "content_hash": "sha256:f70e4fb8fde7e258fded0180e5b291f59d4d942dfa3b2c17b3a34523813c77e8",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Worked connection for MMP-REPLACE-AND-COUPLE",
+      "line": 138,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/README#worked-connection-for-mmp-replace-and-couple"
+    },
+    {
+      "anchor": "mmp-represent-why-does-counting-the-records-overcount-the",
+      "content_hash": "sha256:55bd70d92b1dba4f07f3724832d10b3143c73977e08fb012e379bd4666053471",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "MMP-REPRESENT - Why does counting the records overcount the assignments?",
+      "line": 148,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/README#mmp-represent-why-does-counting-the-records-overcount-the"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:601585d838adb5b66de66ac962195fbb1de246327b8be6ad4faa1b193d46703f",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "Table of Contents",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/TOC#root"
+    },
+    {
+      "anchor": "public-units",
+      "content_hash": "sha256:98c938b799d5f8d34f672fe500a6bca661794cb116fafd89d40286918f369075",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "Public units",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/TOC#public-units"
+    },
+    {
+      "anchor": "a-formulate-the-subject-question",
+      "content_hash": "sha256:070c16fae738cddab77a671a9ba9890a214ce8049375b09a29568a1af386ac4e",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "A. Formulate the subject question",
+      "line": 14,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/TOC#a-formulate-the-subject-question"
+    },
+    {
+      "anchor": "b-infer-distinguish-and-revise",
+      "content_hash": "sha256:f081fba9a93c92c9cfd360d03e400ed52ebb2fd2ea2f9042e4fd87321c064bd9",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "B. Infer, distinguish and revise",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/TOC#b-infer-distinguish-and-revise"
+    },
+    {
+      "anchor": "c-change-the-model-while-retaining-its-use",
+      "content_hash": "sha256:cdac4739c9519659bab2bf50d478e2b175452dad1a769f9531c615c992cf3f77",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "C. Change the model while retaining its use",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/TOC#c-change-the-model-while-retaining-its-use"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:9c05919bcda6c0b5fff754a43d45e5969a7244b1cd38c7b8ab508bd82678c47d",
+      "doc_path": "pub/parts/a-formulate-the-subject-question",
+      "file": "vibevm/vibespecs/pub/parts/a-formulate-the-subject-question.md",
+      "heading": "A. Formulate the subject question",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/parts/a-formulate-the-subject-question#root"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:22b55de32c59a198f555ce4d1f17236287916593f2b1bef7e0cc55c2e4106822",
+      "doc_path": "pub/parts/b-infer-distinguish-and-revise",
+      "file": "vibevm/vibespecs/pub/parts/b-infer-distinguish-and-revise.md",
+      "heading": "B. Infer, distinguish and revise",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/parts/b-infer-distinguish-and-revise#root"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:a7d4d31b7b014741c669dee45a5e40bf368a203985408ab35df466e8597992eb",
+      "doc_path": "pub/parts/c-change-the-model-while-retaining-its-use",
+      "file": "vibevm/vibespecs/pub/parts/c-change-the-model-while-retaining-its-use.md",
+      "heading": "C. Change the model while retaining its use",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/pub/parts/c-change-the-model-while-retaining-its-use#root"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:f601e82333ff1b50eee499c7652b8c36529cc78e74528523d1eb1c9b5b6ab70f",
+      "doc_path": "source/MMP-10",
+      "file": "vibevm/vibespecs/source/MMP-10.md",
+      "heading": "MMP.10 - Construct and Revise a Mathematical Constraint Formulation: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-10#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:82cfdc06daf30795296305671c8845c1ec86aecf6036c94b7b9e0c35e679dbfb",
+      "doc_path": "source/MMP-10",
+      "file": "vibevm/vibespecs/source/MMP-10.md",
+      "heading": "MMP.10:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-10#archetypal-grounding"
+    },
+    {
+      "anchor": "construct-an-unknown-rule-from-requirements-on-its-repetitions",
+      "content_hash": "sha256:bcff117f0993526c4ca5c98d7b735554e343ddad07f4bbd3005118551e30fe72",
+      "doc_path": "source/MMP-10",
+      "file": "vibevm/vibespecs/source/MMP-10.md",
+      "heading": "MMP.10:5.1 - Construct an unknown rule from requirements on its repetitions",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-10#construct-an-unknown-rule-from-requirements-on-its-repetitions"
+    },
+    {
+      "anchor": "preserve-existence-while-repairing-a-count",
+      "content_hash": "sha256:6af71727cb5b3b12addd7422684f1e8f6b0d1dcd61e081ecad67105a7a1e1c2b",
+      "doc_path": "source/MMP-10",
+      "file": "vibevm/vibespecs/source/MMP-10.md",
+      "heading": "MMP.10:5.2 - Preserve existence while repairing a count",
+      "line": 25,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-10#preserve-existence-while-repairing-a-count"
+    },
+    {
+      "anchor": "keep-quantities-and-domain-restrictions-together",
+      "content_hash": "sha256:46af08cfd89ed4a2f57f981a1be4ffb596d06a7988706c8b4e9d46a54c0bbd69",
+      "doc_path": "source/MMP-10",
+      "file": "vibevm/vibespecs/source/MMP-10.md",
+      "heading": "MMP.10:5.3 - Keep quantities and domain restrictions together",
+      "line": 37,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-10#keep-quantities-and-domain-restrictions-together"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:099a287e4d926bf45901a612f45de1b7a0f487b00d1fc3083f9de294cc6e1aa3",
+      "doc_path": "source/MMP-10",
+      "file": "vibevm/vibespecs/source/MMP-10.md",
+      "heading": "MMP.10:6 - Bias-Annotation",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-10#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:a6eaeeb5aa66771aa55f492277cdf25714aa60479eee6d9fa084fa0cfe9326b0",
+      "doc_path": "source/MMP-10",
+      "file": "vibevm/vibespecs/source/MMP-10.md",
+      "heading": "MMP.10:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 53,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-10#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:f72e6647ea06e6f771193ebaffbc10a3f72bfcf6890ce545a348de3011c17717",
+      "doc_path": "source/MMP-10",
+      "file": "vibevm/vibespecs/source/MMP-10.md",
+      "heading": "MMP.10:10 - Architectural Rationale",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-10#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:f6d1a94f92afd965466bd3b805d3695912a901e3c441642eb3f5c56d604eae35",
+      "doc_path": "source/MMP-10",
+      "file": "vibevm/vibespecs/source/MMP-10.md",
+      "heading": "MMP.10:11 - SoTA-Echoing",
+      "line": 71,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-10#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:8864b9c25c73c3d86daff143a95ab18ae1b42d6edad7f2b0fe93e51f82d4b9b3",
+      "doc_path": "source/MMP-10",
+      "file": "vibevm/vibespecs/source/MMP-10.md",
+      "heading": "MMP.10:End",
+      "line": 84,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-10#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:7eb14eeb93257a7fc7d1129bb1215b0cf637992d93bf8684de4f1cef3ed06301",
+      "doc_path": "source/MMP-11",
+      "file": "vibevm/vibespecs/source/MMP-11.md",
+      "heading": "MMP.11 - Construct a Mathematical Model Family from Known Relations: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-11#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:9443d25f337049b612aac9376e4194c00321f074abb713163acc12e0f63d72cf",
+      "doc_path": "source/MMP-11",
+      "file": "vibevm/vibespecs/source/MMP-11.md",
+      "heading": "MMP.11:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-11#archetypal-grounding"
+    },
+    {
+      "anchor": "construct-a-response-from-its-known-shape",
+      "content_hash": "sha256:90ce5391f44097478a6ad116f73e9951bb8a8c644a2922cd5bf7499623f85882",
+      "doc_path": "source/MMP-11",
+      "file": "vibevm/vibespecs/source/MMP-11.md",
+      "heading": "MMP.11:5.1 - Construct a response from its known shape",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-11#construct-a-response-from-its-known-shape"
+    },
+    {
+      "anchor": "retain-an-exchange-balance-without-inventing-its-mechanism",
+      "content_hash": "sha256:ff3be2efc1752810e496c64591667d6dc3dd535293d91ef08d0cc90b64f1d57f",
+      "doc_path": "source/MMP-11",
+      "file": "vibevm/vibespecs/source/MMP-11.md",
+      "heading": "MMP.11:5.2 - Retain an exchange balance without inventing its mechanism",
+      "line": 25,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-11#retain-an-exchange-balance-without-inventing-its-mechanism"
+    },
+    {
+      "anchor": "construct-probabilities-while-keeping-boundary-outcomes",
+      "content_hash": "sha256:446f3519a480babdc7be1e9d39586192f22fc055d2da65c22248a984b08db5cd",
+      "doc_path": "source/MMP-11",
+      "file": "vibevm/vibespecs/source/MMP-11.md",
+      "heading": "MMP.11:5.3 - Construct probabilities while keeping boundary outcomes",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-11#construct-probabilities-while-keeping-boundary-outcomes"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:afcd25c115f79b5ae0b93c27a06095d08a277daa4d90c2758403489b3d084069",
+      "doc_path": "source/MMP-11",
+      "file": "vibevm/vibespecs/source/MMP-11.md",
+      "heading": "MMP.11:6 - Bias-Annotation",
+      "line": 57,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-11#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:6bbc76a67de21d1777570cd33ca8400071ca635428b00ea3f954544eb247a805",
+      "doc_path": "source/MMP-11",
+      "file": "vibevm/vibespecs/source/MMP-11.md",
+      "heading": "MMP.11:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-11#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:0c1196ff116f962ddde0539c5b2595ecc39b329b8249735e513328a4c0e71f88",
+      "doc_path": "source/MMP-11",
+      "file": "vibevm/vibespecs/source/MMP-11.md",
+      "heading": "MMP.11:10 - Architectural Rationale",
+      "line": 73,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-11#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:f3b6d24d9f2e97e253f3badfd7c431969b39fd118d675361686dddb80192a843",
+      "doc_path": "source/MMP-11",
+      "file": "vibevm/vibespecs/source/MMP-11.md",
+      "heading": "MMP.11:11 - SoTA-Echoing",
+      "line": 81,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-11#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:bd9049208c11bcfccd83acd97f0ee6a5d99703e70b040d350e34a1affc4b67b6",
+      "doc_path": "source/MMP-11",
+      "file": "vibevm/vibespecs/source/MMP-11.md",
+      "heading": "MMP.11:End",
+      "line": 94,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-11#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:5e87bd5e1f78188377306b8a7270af822b363243fc79c975de5491634a796327",
+      "doc_path": "source/MMP-12",
+      "file": "vibevm/vibespecs/source/MMP-12.md",
+      "heading": "MMP.12 - Formulate an Inverse Problem and Choose Whether and How to Use Regularization: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-12#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:a6e518edb4b0e4305f01dcaec84cc5e05dc2dabc672db5eab64083a4b64522af",
+      "doc_path": "source/MMP-12",
+      "file": "vibevm/vibespecs/source/MMP-12.md",
+      "heading": "MMP.12:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-12#archetypal-grounding"
+    },
+    {
+      "anchor": "recover-a-split-whose-contrast-is-weakly-observed",
+      "content_hash": "sha256:404d5d34ac08c2523a26990be5c5dcbf44bc25494ddb9a63df88639fe0f6bc97",
+      "doc_path": "source/MMP-12",
+      "file": "vibevm/vibespecs/source/MMP-12.md",
+      "heading": "MMP.12:5.1 - Recover a split whose contrast is weakly observed",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-12#recover-a-split-whose-contrast-is-weakly-observed"
+    },
+    {
+      "anchor": "a-circulation-selected-away-by-minimum-norm",
+      "content_hash": "sha256:a42ac87eb0c664770e508adab160083b42396ac2fc335137f70792e7f8c1adf2",
+      "doc_path": "source/MMP-12",
+      "file": "vibevm/vibespecs/source/MMP-12.md",
+      "heading": "MMP.12:5.2 - A circulation selected away by minimum norm",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-12#a-circulation-selected-away-by-minimum-norm"
+    },
+    {
+      "anchor": "an-accumulated-quantity-with-an-unstable-derivative",
+      "content_hash": "sha256:ab51e0beec45ff5c612869583cf478b463d5eb0d42e468ed985ab321bb121d3d",
+      "doc_path": "source/MMP-12",
+      "file": "vibevm/vibespecs/source/MMP-12.md",
+      "heading": "MMP.12:5.3 - An accumulated quantity with an unstable derivative",
+      "line": 49,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-12#an-accumulated-quantity-with-an-unstable-derivative"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:bb8b08c4a084b415c1e5197eba131301c0ee58679bc278bce521dc4088ebb271",
+      "doc_path": "source/MMP-12",
+      "file": "vibevm/vibespecs/source/MMP-12.md",
+      "heading": "MMP.12:6 - Bias-Annotation",
+      "line": 61,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-12#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:7b546030f94bad1333c619a63fbdce5f4c5dd4c20cd02e17cbed66d835ecfc9e",
+      "doc_path": "source/MMP-12",
+      "file": "vibevm/vibespecs/source/MMP-12.md",
+      "heading": "MMP.12:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 67,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-12#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:c55bb3d5c6037e960aa6a8c24c2bcb2b504f62bf5983195811febeeacd1cbcfa",
+      "doc_path": "source/MMP-12",
+      "file": "vibevm/vibespecs/source/MMP-12.md",
+      "heading": "MMP.12:10 - Architectural Rationale",
+      "line": 77,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-12#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:d17269d506d0e8b39c6779ff5256cd733c819befc97476136fa6c426f12e6c8f",
+      "doc_path": "source/MMP-12",
+      "file": "vibevm/vibespecs/source/MMP-12.md",
+      "heading": "MMP.12:11 - SoTA-Echoing",
+      "line": 83,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-12#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:0151e76735cd3f4771434cdce9d4cc8dd9fd1eb65cd3893d8d2c2be24a6ea2c0",
+      "doc_path": "source/MMP-12",
+      "file": "vibevm/vibespecs/source/MMP-12.md",
+      "heading": "MMP.12:End",
+      "line": 92,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-12#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:17f49eca5a58ed2920d5378f809bda1198ca7bb7bec2d79b2248dd4b1ff346a0",
+      "doc_path": "source/MMP-13",
+      "file": "vibevm/vibespecs/source/MMP-13.md",
+      "heading": "MMP.13 - Infer Unknowns Statistically under a Stated Observation Model: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-13#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:015f36df18a336667246b55f43d0a4a9aa0e5e3d74bd503d39110f3129ddc0f6",
+      "doc_path": "source/MMP-13",
+      "file": "vibevm/vibespecs/source/MMP-13.md",
+      "heading": "MMP.13:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-13#archetypal-grounding"
+    },
+    {
+      "anchor": "zero-recorded-failures-two-different-uncertainty-claims",
+      "content_hash": "sha256:a99611069039bfa6d62f371b0a841bb92067f73f9435bceaff80b28784dd7bb1",
+      "doc_path": "source/MMP-13",
+      "file": "vibevm/vibespecs/source/MMP-13.md",
+      "heading": "MMP.13:5.1 - Zero recorded failures: two different uncertainty claims",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-13#zero-recorded-failures-two-different-uncertainty-claims"
+    },
+    {
+      "anchor": "a-common-calibration-error-survives-averaging",
+      "content_hash": "sha256:a9ca88af38f27b892b9f9a1db31bcb8a2f99aaaf11f6b23ed863c728db9911d8",
+      "doc_path": "source/MMP-13",
+      "file": "vibevm/vibespecs/source/MMP-13.md",
+      "heading": "MMP.13:5.2 - A common calibration error survives averaging",
+      "line": 51,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-13#a-common-calibration-error-survives-averaging"
+    },
+    {
+      "anchor": "infer-the-rate-for-the-receiving-workload",
+      "content_hash": "sha256:63e43946babcc2afb0e65e8eebeabd4385606b06b1ae27fce318f76c4bf5f845",
+      "doc_path": "source/MMP-13",
+      "file": "vibevm/vibespecs/source/MMP-13.md",
+      "heading": "MMP.13:5.3 - Infer the rate for the receiving workload",
+      "line": 75,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-13#infer-the-rate-for-the-receiving-workload"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:0e5a06dc0bc65ec4e6d902ab1e8b303d3ed4154ff5b1425b342b0042e839d59d",
+      "doc_path": "source/MMP-13",
+      "file": "vibevm/vibespecs/source/MMP-13.md",
+      "heading": "MMP.13:6 - Bias-Annotation",
+      "line": 93,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-13#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:f3850122c9da5193dc404545222890d056ce92f37860b37237d1642c42de2f3b",
+      "doc_path": "source/MMP-13",
+      "file": "vibevm/vibespecs/source/MMP-13.md",
+      "heading": "MMP.13:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-13#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:d30c474371e64cb8f5349797c9b9e7439864916d3b6dab0a6f58445f85b01a86",
+      "doc_path": "source/MMP-13",
+      "file": "vibevm/vibespecs/source/MMP-13.md",
+      "heading": "MMP.13:10 - Architectural Rationale",
+      "line": 110,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-13#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:9cf4ad392aacceacb9266e913871ed5709477fc4aeae0d9bf9f897323ce9237e",
+      "doc_path": "source/MMP-13",
+      "file": "vibevm/vibespecs/source/MMP-13.md",
+      "heading": "MMP.13:11 - SoTA-Echoing",
+      "line": 116,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-13#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:b26329fae46601e918ec310a852de761ef7bf67c6302f89ffad99cf075690897",
+      "doc_path": "source/MMP-13",
+      "file": "vibevm/vibespecs/source/MMP-13.md",
+      "heading": "MMP.13:End",
+      "line": 125,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-13#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:68ceb6e66e38ac4ef78909eae2dd6a8319c0de1dde7f1b1e6a7cb2698eefce4a",
+      "doc_path": "source/MMP-14",
+      "file": "vibevm/vibespecs/source/MMP-14.md",
+      "heading": "MMP.14 - Find and Repair a Mathematical Model's Failed Predictions: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-14#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:8431a8f76cb3e96e01830a165c90d4b2e8bccc3bb00a94cd02737664b57690e3",
+      "doc_path": "source/MMP-14",
+      "file": "vibevm/vibespecs/source/MMP-14.md",
+      "heading": "MMP.14:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-14#archetypal-grounding"
+    },
+    {
+      "anchor": "a-correct-overall-mean-conceals-failed-conditional-predictions",
+      "content_hash": "sha256:2d67ee3db26c7ae71045b96c2d7bd2ec4c7514654210a2f2946bbe4267ce44d9",
+      "doc_path": "source/MMP-14",
+      "file": "vibevm/vibespecs/source/MMP-14.md",
+      "heading": "MMP.14:5.1 - A correct overall mean conceals failed conditional predictions",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-14#a-correct-overall-mean-conceals-failed-conditional-predictions"
+    },
+    {
+      "anchor": "repair-the-law-of-the-exported-records",
+      "content_hash": "sha256:d46cca07bd2defce980e313b43b678a426f4392330a9341977918c91ef5ea8af",
+      "doc_path": "source/MMP-14",
+      "file": "vibevm/vibespecs/source/MMP-14.md",
+      "heading": "MMP.14:5.2 - Repair the law of the exported records",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-14#repair-the-law-of-the-exported-records"
+    },
+    {
+      "anchor": "a-failed-numerical-prediction-need-not-require-a-new-subject",
+      "content_hash": "sha256:eed8aaff898c68c098873e5ccbe2e2135037fb7adb8932f3385b5cf82bd0b10d",
+      "doc_path": "source/MMP-14",
+      "file": "vibevm/vibespecs/source/MMP-14.md",
+      "heading": "MMP.14:5.3 - A failed numerical prediction need not require a new subject model",
+      "line": 78,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-14#a-failed-numerical-prediction-need-not-require-a-new-subject"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:e13bd8aea4beda1148bcab498a2ef45ce0887db70822102e7672c3288b8094f0",
+      "doc_path": "source/MMP-14",
+      "file": "vibevm/vibespecs/source/MMP-14.md",
+      "heading": "MMP.14:6 - Bias-Annotation",
+      "line": 86,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-14#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:660a820949e9397acdd58a4829cc6a686d3fc50bd95761fb4b69c85b8519f7c3",
+      "doc_path": "source/MMP-14",
+      "file": "vibevm/vibespecs/source/MMP-14.md",
+      "heading": "MMP.14:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 92,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-14#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:3376cd0159026eb0914827aa09ceb31ae2ec6817f693d9246d057ab81a027937",
+      "doc_path": "source/MMP-14",
+      "file": "vibevm/vibespecs/source/MMP-14.md",
+      "heading": "MMP.14:10 - Architectural Rationale",
+      "line": 105,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-14#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:0aed2de8d566613e7c2e3d7a295db52fb6b5eeb040c928419429d2420238322c",
+      "doc_path": "source/MMP-14",
+      "file": "vibevm/vibespecs/source/MMP-14.md",
+      "heading": "MMP.14:11 - SoTA-Echoing",
+      "line": 113,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-14#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:6af78be0956bc28cdb9a53aaa2834b8b76063e0fe3fa629a2172f8161c395210",
+      "doc_path": "source/MMP-14",
+      "file": "vibevm/vibespecs/source/MMP-14.md",
+      "heading": "MMP.14:End",
+      "line": 128,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-14#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:c5191ad0af1bcb7a13fe6410a8ddd13ecf620aa84b0d3392fbb7997947b6a554",
+      "doc_path": "source/MMP-15",
+      "file": "vibevm/vibespecs/source/MMP-15.md",
+      "heading": "MMP.15 - Identify an Intervention Effect from Available Data: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-15#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:8e19e7bb2760be0eee12f190427b9986cee8bd7634f15709ef58f0133f146b63",
+      "doc_path": "source/MMP-15",
+      "file": "vibevm/vibespecs/source/MMP-15.md",
+      "heading": "MMP.15:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-15#archetypal-grounding"
+    },
+    {
+      "anchor": "separate-a-production-action-from-the-batches-receiving-it",
+      "content_hash": "sha256:5b3f0ebd49a13c27867e5c7dc49cb06c997fe907aa924263b4f3841b1156120a",
+      "doc_path": "source/MMP-15",
+      "file": "vibevm/vibespecs/source/MMP-15.md",
+      "heading": "MMP.15:5.1 - Separate a production action from the batches receiving it",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-15#separate-a-production-action-from-the-batches-receiving-it"
+    },
+    {
+      "anchor": "use-a-mediator-then-withdraw-a-pathway-exclusion",
+      "content_hash": "sha256:15a2b81d03bb75599e393ab93beea28426185d42e466e03782fd3b88a2ef8913",
+      "doc_path": "source/MMP-15",
+      "file": "vibevm/vibespecs/source/MMP-15.md",
+      "heading": "MMP.15:5.2 - Use a mediator, then withdraw a pathway exclusion",
+      "line": 26,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-15#use-a-mediator-then-withdraw-a-pathway-exclusion"
+    },
+    {
+      "anchor": "transfer-an-experiment-to-another-mixture-of-sites",
+      "content_hash": "sha256:4e4579cbdfc4607c5db11f263efbab8b07272eeb2ee1577785dd8da32d740750",
+      "doc_path": "source/MMP-15",
+      "file": "vibevm/vibespecs/source/MMP-15.md",
+      "heading": "MMP.15:5.3 - Transfer an experiment to another mixture of sites",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-15#transfer-an-experiment-to-another-mixture-of-sites"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:2b4c6a27b08b96a132de31132c6de0d8338a08766af2bed6141199fa0c60f177",
+      "doc_path": "source/MMP-15",
+      "file": "vibevm/vibespecs/source/MMP-15.md",
+      "heading": "MMP.15:6 - Bias-Annotation",
+      "line": 84,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-15#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:efc83e487114da4920aea01cf8b7612f9fe1c67a273862c66ada9aca394309c4",
+      "doc_path": "source/MMP-15",
+      "file": "vibevm/vibespecs/source/MMP-15.md",
+      "heading": "MMP.15:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 90,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-15#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:e39eb7124b4c4e1aa4b5f16cf95902315b64a06e1ffdeddbc6b9999dcc05f733",
+      "doc_path": "source/MMP-15",
+      "file": "vibevm/vibespecs/source/MMP-15.md",
+      "heading": "MMP.15:10 - Architectural Rationale",
+      "line": 101,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-15#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:0034fd884c6fee489cd00ef7cd35f2c2d67c08c43dac99ba4ee346a63869f72e",
+      "doc_path": "source/MMP-15",
+      "file": "vibevm/vibespecs/source/MMP-15.md",
+      "heading": "MMP.15:11 - SoTA-Echoing",
+      "line": 107,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-15#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:1a1ee2923ce23b5fddf9a00b17b369118ac87b427f07cc880314b40a53835b66",
+      "doc_path": "source/MMP-15",
+      "file": "vibevm/vibespecs/source/MMP-15.md",
+      "heading": "MMP.15:End",
+      "line": 122,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-15#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:2d48fdbd9a59fa1285d08f3981efdbaf7b781255ffe89f2ff0ff22b0bad9e4f7",
+      "doc_path": "source/MMP-16",
+      "file": "vibevm/vibespecs/source/MMP-16.md",
+      "heading": "MMP.16 - Design Observations to Separate Mathematical Model Alternatives: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-16#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:d2b7bd168e3a96b66c715889f8c2b9c759489cb8ffff316f0bd75c42422a7a6f",
+      "doc_path": "source/MMP-16",
+      "file": "vibevm/vibespecs/source/MMP-16.md",
+      "heading": "MMP.16:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-16#archetypal-grounding"
+    },
+    {
+      "anchor": "the-largest-response-difference-disappears-in-the-readout",
+      "content_hash": "sha256:ca8ff5b159fc5e98debe71a2a713aa276afc116f60723b95445dbccbeb156a51",
+      "doc_path": "source/MMP-16",
+      "file": "vibevm/vibespecs/source/MMP-16.md",
+      "heading": "MMP.16:5.1 - The largest response difference disappears in the readout",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-16#the-largest-response-difference-disappears-in-the-readout"
+    },
+    {
+      "anchor": "a-useful-signal-is-still-too-costly",
+      "content_hash": "sha256:a347884876d32737465a0b386b1524215b9515d03d5953d2a227878b707feeed",
+      "doc_path": "source/MMP-16",
+      "file": "vibevm/vibespecs/source/MMP-16.md",
+      "heading": "MMP.16:5.2 - A useful signal is still too costly",
+      "line": 40,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-16#a-useful-signal-is-still-too-costly"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:b9a1a6be42f6406e24e45ba69de011f9cbf5ea3f3268b209d0f65d771c09d63e",
+      "doc_path": "source/MMP-16",
+      "file": "vibevm/vibespecs/source/MMP-16.md",
+      "heading": "MMP.16:6 - Bias-Annotation",
+      "line": 68,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-16#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:4bcfbc4cee1000f1c3a48006df215485ae0dd95402e2a9c110f58a2d1c370755",
+      "doc_path": "source/MMP-16",
+      "file": "vibevm/vibespecs/source/MMP-16.md",
+      "heading": "MMP.16:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 74,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-16#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:7576e4691e1eafba6cb42b19a32b020fb30f8729d938c349b045542a38ca27e2",
+      "doc_path": "source/MMP-16",
+      "file": "vibevm/vibespecs/source/MMP-16.md",
+      "heading": "MMP.16:10 - Architectural Rationale",
+      "line": 86,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-16#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:cb573972ea12aee73646c737f152c8037d32c8cc2e6c6a1aa510fc538557ca51",
+      "doc_path": "source/MMP-16",
+      "file": "vibevm/vibespecs/source/MMP-16.md",
+      "heading": "MMP.16:11 - SoTA-Echoing",
+      "line": 94,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-16#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:f1b53855e72b0abe0dcddb4f59c1292011895ab395599470bfad8dc7c7d26e9b",
+      "doc_path": "source/MMP-16",
+      "file": "vibevm/vibespecs/source/MMP-16.md",
+      "heading": "MMP.16:End",
+      "line": 105,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-16#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:334ad68d94a992d7895c86257e38c55404a1d8878123d88f2fb2a9655bdf8cbe",
+      "doc_path": "source/MMP-17",
+      "file": "vibevm/vibespecs/source/MMP-17.md",
+      "heading": "MMP.17 - Construct a Surrogate for Selected Model Responses: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-17#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:3ad3dbc116e367e45dab3bad6f3ac070bf68f76c4ecd904b62cb9df08aacee1a",
+      "doc_path": "source/MMP-17",
+      "file": "vibevm/vibespecs/source/MMP-17.md",
+      "heading": "MMP.17:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-17#archetypal-grounding"
+    },
+    {
+      "anchor": "refine-an-interpolation-only-until-it-settles-the-comparison",
+      "content_hash": "sha256:59edf65ace42be270e8033fc100a43f4bc765a7d34127aabd47879b8aa0044ae",
+      "doc_path": "source/MMP-17",
+      "file": "vibevm/vibespecs/source/MMP-17.md",
+      "heading": "MMP.17:5.1 - Refine an interpolation only until it settles the comparison",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-17#refine-an-interpolation-only-until-it-settles-the-comparison"
+    },
+    {
+      "anchor": "correct-a-cheap-allocation-model-then-change-its-regime",
+      "content_hash": "sha256:7d6bfb99c087c204c530c8ca298ea9664db9e52d90478afe6f66593785f40231",
+      "doc_path": "source/MMP-17",
+      "file": "vibevm/vibespecs/source/MMP-17.md",
+      "heading": "MMP.17:5.2 - Correct a cheap allocation model, then change its regime",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-17#correct-a-cheap-allocation-model-then-change-its-regime"
+    },
+    {
+      "anchor": "reuse-stochastic-cases-when-the-requested-response-changes",
+      "content_hash": "sha256:0bc51c28edd128614ff72a9a88da485bf0f161058a6decd9f8cbc4f684434967",
+      "doc_path": "source/MMP-17",
+      "file": "vibevm/vibespecs/source/MMP-17.md",
+      "heading": "MMP.17:5.3 - Reuse stochastic cases when the requested response changes",
+      "line": 51,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-17#reuse-stochastic-cases-when-the-requested-response-changes"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:f6d96d71eac80524b18d8fb0483fb9d58331dda9af943c4f192d769614a4bfd2",
+      "doc_path": "source/MMP-17",
+      "file": "vibevm/vibespecs/source/MMP-17.md",
+      "heading": "MMP.17:6 - Bias-Annotation",
+      "line": 70,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-17#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:530b4f19b30645605a209b0e7705c5b1240336d079ea29ad404d790c124297c3",
+      "doc_path": "source/MMP-17",
+      "file": "vibevm/vibespecs/source/MMP-17.md",
+      "heading": "MMP.17:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 78,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-17#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:f272685745099108442066e1283f372bcdc4b487455a7f5394793003ec908bd5",
+      "doc_path": "source/MMP-17",
+      "file": "vibevm/vibespecs/source/MMP-17.md",
+      "heading": "MMP.17:10 - Architectural Rationale",
+      "line": 89,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-17#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:fbcfc8a1cacb328262f22f42c8e4d130f58a253f1a8da13415974bf81922ebea",
+      "doc_path": "source/MMP-17",
+      "file": "vibevm/vibespecs/source/MMP-17.md",
+      "heading": "MMP.17:11 - SoTA-Echoing",
+      "line": 97,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-17#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:551be7b89dce09a5dc085fe15275a280ac13272f0803a13e12a8ddde17d9a1c1",
+      "doc_path": "source/MMP-17",
+      "file": "vibevm/vibespecs/source/MMP-17.md",
+      "heading": "MMP.17:End",
+      "line": 110,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-17#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:3ea56634a86e417f9d3c9b3e89988e03b3838f2820a5ca916d7c04709224b0df",
+      "doc_path": "source/MMP-18",
+      "file": "vibevm/vibespecs/source/MMP-18.md",
+      "heading": "MMP.18 - Couple Models with Compatible Exchanges and Scales: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-18#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:4b73fa47644f157c6787e7733a26d154a1b9245772d317a96596b48e9a9d6253",
+      "doc_path": "source/MMP-18",
+      "file": "vibevm/vibespecs/source/MMP-18.md",
+      "heading": "MMP.18:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-18#archetypal-grounding"
+    },
+    {
+      "anchor": "preserve-a-transfer-across-different-time-resolutions",
+      "content_hash": "sha256:13cff99a1aca8186183834f137844edd47994a15b53fee4b7dac68f69e878dc4",
+      "doc_path": "source/MMP-18",
+      "file": "vibevm/vibespecs/source/MMP-18.md",
+      "heading": "MMP.18:5.1 - Preserve a transfer across different time resolutions",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-18#preserve-a-transfer-across-different-time-resolutions"
+    },
+    {
+      "anchor": "join-two-analyses-without-counting-their-prior-twice",
+      "content_hash": "sha256:ef7dc4d703e9681ef861f98f4a33a0531057c075bdc6f3c2ea4348b0dbd55110",
+      "doc_path": "source/MMP-18",
+      "file": "vibevm/vibespecs/source/MMP-18.md",
+      "heading": "MMP.18:5.2 - Join two analyses without counting their prior twice",
+      "line": 32,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-18#join-two-analyses-without-counting-their-prior-twice"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:15a3798b4a26ae6b488f3f0076755f2f5cb7f82df790a6a54e5a4027ad295738",
+      "doc_path": "source/MMP-18",
+      "file": "vibevm/vibespecs/source/MMP-18.md",
+      "heading": "MMP.18:6 - Bias-Annotation",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-18#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:4ff9a8a8b500ceac7aa9cb074d8044d6e48fdfe2dfb9a811f8235c07a090c7b6",
+      "doc_path": "source/MMP-18",
+      "file": "vibevm/vibespecs/source/MMP-18.md",
+      "heading": "MMP.18:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 69,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-18#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:b789963484d8076a4638fc430f155fa9165a45446714741db22bef4e44338764",
+      "doc_path": "source/MMP-18",
+      "file": "vibevm/vibespecs/source/MMP-18.md",
+      "heading": "MMP.18:10 - Architectural Rationale",
+      "line": 81,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-18#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:165d2d5e275b38d5f9ef8b2759c64f2ca7397e8488ef6855a271424dbc1455fe",
+      "doc_path": "source/MMP-18",
+      "file": "vibevm/vibespecs/source/MMP-18.md",
+      "heading": "MMP.18:11 - SoTA-Echoing",
+      "line": 89,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-18#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:32bb2bfea1a18c8001d617e58719616a1e2ca2a5a4461ddc03bd9324d87fea78",
+      "doc_path": "source/MMP-18",
+      "file": "vibevm/vibespecs/source/MMP-18.md",
+      "heading": "MMP.18:End",
+      "line": 102,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-18#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:fa776dc980fa98fc7c5e454289b3da41e725c186291a98c68eb72119f8b957c0",
+      "doc_path": "source/MMP-19",
+      "file": "vibevm/vibespecs/source/MMP-19.md",
+      "heading": "MMP.19 - Construct and Bound a Mathematical Counterfactual Comparison under a Causal Model: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-19#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:fad65578514ea0890816da3c97070ddfefc9e67adf7a98d2023a8260db82c005",
+      "doc_path": "source/MMP-19",
+      "file": "vibevm/vibespecs/source/MMP-19.md",
+      "heading": "MMP.19:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-19#archetypal-grounding"
+    },
+    {
+      "anchor": "change-the-route-for-an-already-observed-processing-case",
+      "content_hash": "sha256:a0425864b4bd81400a1b0ebead1f6a5fd3d8f3bee918ab3159583875982e9665",
+      "doc_path": "source/MMP-19",
+      "file": "vibevm/vibespecs/source/MMP-19.md",
+      "heading": "MMP.19:5.1 - Change the route for an already observed processing case",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-19#change-the-route-for-an-already-observed-processing-case"
+    },
+    {
+      "anchor": "expose-a-coupling-that-experiments-do-not-determine",
+      "content_hash": "sha256:640cbb035d14db3e53dea8759781b4f6c8e94e1ecab3fc246cbe941a26d0791a",
+      "doc_path": "source/MMP-19",
+      "file": "vibevm/vibespecs/source/MMP-19.md",
+      "heading": "MMP.19:5.2 - Expose a coupling that experiments do not determine",
+      "line": 19,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-19#expose-a-coupling-that-experiments-do-not-determine"
+    },
+    {
+      "anchor": "bound-benefit-without-inventing-a-joint-law",
+      "content_hash": "sha256:65ed1658a83f02128b397551624e07c2147afdc1d9f68ebcd26a3509fc5c2bde",
+      "doc_path": "source/MMP-19",
+      "file": "vibevm/vibespecs/source/MMP-19.md",
+      "heading": "MMP.19:5.3 - Bound benefit without inventing a joint law",
+      "line": 36,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-19#bound-benefit-without-inventing-a-joint-law"
+    },
+    {
+      "anchor": "state-which-mediated-contrast-is-being-calculated",
+      "content_hash": "sha256:29ba75d6e7fcb9864ca665f1dd9b428dd0649a2d8a669753cf5e7e063df059a5",
+      "doc_path": "source/MMP-19",
+      "file": "vibevm/vibespecs/source/MMP-19.md",
+      "heading": "MMP.19:5.4 - State which mediated contrast is being calculated",
+      "line": 53,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-19#state-which-mediated-contrast-is-being-calculated"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:b2961ed7d4c7fdf8fd00da62966695459fbce6ecae7ad85784a0847dc4f1d686",
+      "doc_path": "source/MMP-19",
+      "file": "vibevm/vibespecs/source/MMP-19.md",
+      "heading": "MMP.19:6 - Bias-Annotation",
+      "line": 61,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-19#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:ed81cad1180e03ee13e888dac637c73e60450272b38f8bbd5fb8fd0a8abeb74a",
+      "doc_path": "source/MMP-19",
+      "file": "vibevm/vibespecs/source/MMP-19.md",
+      "heading": "MMP.19:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 67,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-19#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:3dcd7b32dd2ca21dfa5bc8c6dd884b930be05d8dc33efb284236189f839fd313",
+      "doc_path": "source/MMP-19",
+      "file": "vibevm/vibespecs/source/MMP-19.md",
+      "heading": "MMP.19:10 - Architectural Rationale",
+      "line": 77,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-19#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:7e89aaa124887718ebe0c5d43fb4737912347c47e51a0cebfb6c0c66beebaa77",
+      "doc_path": "source/MMP-19",
+      "file": "vibevm/vibespecs/source/MMP-19.md",
+      "heading": "MMP.19:11 - SoTA-Echoing",
+      "line": 83,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-19#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:bf5a6a8797dce57c3e2e32b70885e0a1fca0c01be4851b590c8f5270c2a61d8b",
+      "doc_path": "source/MMP-19",
+      "file": "vibevm/vibespecs/source/MMP-19.md",
+      "heading": "MMP.19:End",
+      "line": 94,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-19#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:e01a5a727000068351567d5b3d69e2cb2c2fe039d65e333a4d9c8bd4c98be852",
+      "doc_path": "source/MMP-7",
+      "file": "vibevm/vibespecs/source/MMP-7.md",
+      "heading": "MMP.7 - Construct a Probability Model of the Recorded Data: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-7#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:3840ded02bca0ad8cdff09ce79e1cff4c620a73f6dee34faf53403020074c89a",
+      "doc_path": "source/MMP-7",
+      "file": "vibevm/vibespecs/source/MMP-7.md",
+      "heading": "MMP.7:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-7#archetypal-grounding"
+    },
+    {
+      "anchor": "infer-a-success-rate-from-a-selectively-submitted-log",
+      "content_hash": "sha256:08f8ef3531bf14387dcc8714a4b2bbe3e2f123d0bea131b3a6df6579611bacb1",
+      "doc_path": "source/MMP-7",
+      "file": "vibevm/vibespecs/source/MMP-7.md",
+      "heading": "MMP.7:5.1 - Infer a success rate from a selectively submitted log",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-7#infer-a-success-rate-from-a-selectively-submitted-log"
+    },
+    {
+      "anchor": "preserve-a-common-influence-across-readings",
+      "content_hash": "sha256:41e2bc1804b1fc2c8ea02793dd8b736af762c01c4845009d85bd1004e88381fc",
+      "doc_path": "source/MMP-7",
+      "file": "vibevm/vibespecs/source/MMP-7.md",
+      "heading": "MMP.7:5.2 - Preserve a common influence across readings",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-7#preserve-a-common-influence-across-readings"
+    },
+    {
+      "anchor": "use-a-timed-out-trial-as-an-interval-report",
+      "content_hash": "sha256:02041c563317a5f11fe4d81e71afe623c89e3a2cd03ced0bc2973963a2d72eb4",
+      "doc_path": "source/MMP-7",
+      "file": "vibevm/vibespecs/source/MMP-7.md",
+      "heading": "MMP.7:5.3 - Use a timed-out trial as an interval report",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-7#use-a-timed-out-trial-as-an-interval-report"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:229bacf40d4973935987a2fa9ca7e6c37ffacc998f136466028d3d9b6c724f7d",
+      "doc_path": "source/MMP-7",
+      "file": "vibevm/vibespecs/source/MMP-7.md",
+      "heading": "MMP.7:6 - Bias-Annotation",
+      "line": 49,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-7#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:1780612ce60ff4e1711b19791186000459ed85a81228787291b0027acc12b1eb",
+      "doc_path": "source/MMP-7",
+      "file": "vibevm/vibespecs/source/MMP-7.md",
+      "heading": "MMP.7:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 53,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-7#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:5814ed573ae2b6cdafe2f49e35acf0712f7cb7b743df7ad40a77eb9f3f8de7a4",
+      "doc_path": "source/MMP-7",
+      "file": "vibevm/vibespecs/source/MMP-7.md",
+      "heading": "MMP.7:10 - Architectural Rationale",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-7#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:fd901a58a7a915831bca0bf60b9da5d497721500b5a2a4d113be81390c557ca4",
+      "doc_path": "source/MMP-7",
+      "file": "vibevm/vibespecs/source/MMP-7.md",
+      "heading": "MMP.7:11 - SoTA-Echoing",
+      "line": 71,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-7#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:39d1e347f9991f6fbf02361f8840a0929ab8bc2bb9a224786ff209620ed75f03",
+      "doc_path": "source/MMP-7",
+      "file": "vibevm/vibespecs/source/MMP-7.md",
+      "heading": "MMP.7:End",
+      "line": 82,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-7#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:8f57d8d8b2f7da2850c85211344d5a8f33065fd68fbb29b386cb538b789f6de7",
+      "doc_path": "source/MMP-8",
+      "file": "vibevm/vibespecs/source/MMP-8.md",
+      "heading": "MMP.8 - Formulate Information-Dependent Choices Mathematically: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:481a5754cfa1c936fbbc765e3600817ca0cd8574eb79141575b262f082598888",
+      "doc_path": "source/MMP-8",
+      "file": "vibevm/vibespecs/source/MMP-8.md",
+      "heading": "MMP.8:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8#archetypal-grounding"
+    },
+    {
+      "anchor": "choose-a-preload-before-or-after-learning-an-external-load",
+      "content_hash": "sha256:7009f4dc2e9528c20d1ba8eb92b874601b303399705ae7cb8d1375362da492c6",
+      "doc_path": "source/MMP-8",
+      "file": "vibevm/vibespecs/source/MMP-8.md",
+      "heading": "MMP.8:5.1 - Choose a preload before or after learning an external load",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8#choose-a-preload-before-or-after-learning-an-external-load"
+    },
+    {
+      "anchor": "decide-which-participant-gets-a-scarce-resource",
+      "content_hash": "sha256:940491f70c7abc6690f8523c8e569185c0a0961c32a11048bcf52408bf5e8374",
+      "doc_path": "source/MMP-8",
+      "file": "vibevm/vibespecs/source/MMP-8.md",
+      "heading": "MMP.8:5.2 - Decide which participant gets a scarce resource",
+      "line": 19,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8#decide-which-participant-gets-a-scarce-resource"
+    },
+    {
+      "anchor": "find-a-strategy-rather-than-an-answer-chosen-with-future",
+      "content_hash": "sha256:5b073eee223af6b05db8e76239c69b58401bd7efbba45e0712e6687d7a8666fb",
+      "doc_path": "source/MMP-8",
+      "file": "vibevm/vibespecs/source/MMP-8.md",
+      "heading": "MMP.8:5.3 - Find a strategy, rather than an answer chosen with future knowledge",
+      "line": 53,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8#find-a-strategy-rather-than-an-answer-chosen-with-future"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:ca87f4f427c7d1aacca1d2a76bd6a445614e57ae3bb1890a8e570fd77eb0fb82",
+      "doc_path": "source/MMP-8",
+      "file": "vibevm/vibespecs/source/MMP-8.md",
+      "heading": "MMP.8:6 - Bias-Annotation",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:77b56bb0cadfcf28a292dc5004a8dcdd1154330cb33062dfa69a9805d60a60dd",
+      "doc_path": "source/MMP-8",
+      "file": "vibevm/vibespecs/source/MMP-8.md",
+      "heading": "MMP.8:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 67,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:d0e584e709b1b2f41fa581a5e6d5a6bb8f5497b6c96962df2e2625697b6b337c",
+      "doc_path": "source/MMP-8",
+      "file": "vibevm/vibespecs/source/MMP-8.md",
+      "heading": "MMP.8:10 - Architectural Rationale",
+      "line": 77,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:a2540a2e164015989fb3a24e533812eea49a17cfacab5fccf7bc6a5adf59d12a",
+      "doc_path": "source/MMP-8",
+      "file": "vibevm/vibespecs/source/MMP-8.md",
+      "heading": "MMP.8:11 - SoTA-Echoing",
+      "line": 83,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:9c4387cb946cb69bf9f6c3fccc3c996bd15248180f07c6bd4d01524f637a8430",
+      "doc_path": "source/MMP-8",
+      "file": "vibevm/vibespecs/source/MMP-8.md",
+      "heading": "MMP.8:End",
+      "line": 96,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:4284147f3e92014d38aed74be2411e476a3266425ab1afffb30a79ab0e51dc30",
+      "doc_path": "source/MMP-8-SD",
+      "file": "vibevm/vibespecs/source/MMP-8-SD.md",
+      "heading": "MMP.8.SD - Construct a Sequential Decision Model from Information and Consequences: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8-SD#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:a714687eeb9a3f30af10375d60b0758f5755a6d1412b38e9a207324653eb01d3",
+      "doc_path": "source/MMP-8-SD",
+      "file": "vibevm/vibespecs/source/MMP-8-SD.md",
+      "heading": "MMP.8.SD:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8-SD#archetypal-grounding"
+    },
+    {
+      "anchor": "reserve-a-resource-for-an-observed-later-request",
+      "content_hash": "sha256:bb518835b0cfc0305313212fb7be056bceba5812da7ed423f4b5286a6ef5dc18",
+      "doc_path": "source/MMP-8-SD",
+      "file": "vibevm/vibespecs/source/MMP-8-SD.md",
+      "heading": "MMP.8.SD:5.1 - Reserve a resource for an observed later request",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8-SD#reserve-a-resource-for-an-observed-later-request"
+    },
+    {
+      "anchor": "pay-for-information-only-when-a-later-choice-can-use-it",
+      "content_hash": "sha256:fc123f9a15d27ff9e068df36694a9f21badb32d4e09925e70f1d258ff7fd5d0c",
+      "doc_path": "source/MMP-8-SD",
+      "file": "vibevm/vibespecs/source/MMP-8-SD.md",
+      "heading": "MMP.8.SD:5.2 - Pay for information only when a later choice can use it",
+      "line": 30,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8-SD#pay-for-information-only-when-a-later-choice-can-use-it"
+    },
+    {
+      "anchor": "retain-accumulated-progress-when-the-terminal-goal-changes",
+      "content_hash": "sha256:3bf71c6ac28ff4be22a6c0592e2efe351705095e3bfae3cb49abf585d3f56191",
+      "doc_path": "source/MMP-8-SD",
+      "file": "vibevm/vibespecs/source/MMP-8-SD.md",
+      "heading": "MMP.8.SD:5.3 - Retain accumulated progress when the terminal goal changes",
+      "line": 59,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8-SD#retain-accumulated-progress-when-the-terminal-goal-changes"
+    },
+    {
+      "anchor": "preserve-one-unknown-condition-across-stages",
+      "content_hash": "sha256:23f65f366bd58f33391a165bb3239da437992a9096da1947f06c4232934e8040",
+      "doc_path": "source/MMP-8-SD",
+      "file": "vibevm/vibespecs/source/MMP-8-SD.md",
+      "heading": "MMP.8.SD:5.4 - Preserve one unknown condition across stages",
+      "line": 77,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8-SD#preserve-one-unknown-condition-across-stages"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:844671c76f22676f96e237467c832d062ae0243826625d3ec0fe0f77fd5c11c6",
+      "doc_path": "source/MMP-8-SD",
+      "file": "vibevm/vibespecs/source/MMP-8-SD.md",
+      "heading": "MMP.8.SD:6 - Bias-Annotation",
+      "line": 87,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8-SD#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:2083ac5ca6e9eb6080d7c0bd86b39528f8beb246ae57f1891d254755883e7d89",
+      "doc_path": "source/MMP-8-SD",
+      "file": "vibevm/vibespecs/source/MMP-8-SD.md",
+      "heading": "MMP.8.SD:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 93,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8-SD#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:4fc4258c0360214d6cd0256eb677da2c22a1e7faef10575bc77e0c1a9936179c",
+      "doc_path": "source/MMP-8-SD",
+      "file": "vibevm/vibespecs/source/MMP-8-SD.md",
+      "heading": "MMP.8.SD:10 - Architectural Rationale",
+      "line": 104,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8-SD#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:04973823b2d0eb4babc1d21b9fe8451f00cbe513b6b318c283d17fa5c5bbe0d6",
+      "doc_path": "source/MMP-8-SD",
+      "file": "vibevm/vibespecs/source/MMP-8-SD.md",
+      "heading": "MMP.8.SD:11 - SoTA-Echoing",
+      "line": 114,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8-SD#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:a08f4a0b0a68d497db67d403099c7fb47c73d04d24243a3005e4ba45e0396505",
+      "doc_path": "source/MMP-8-SD",
+      "file": "vibevm/vibespecs/source/MMP-8-SD.md",
+      "heading": "MMP.8.SD:End",
+      "line": 126,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-8-SD#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:ad40e60adc3d2c1c06942a9cfd9646b800ba1336343be767b8d3ab77c6e510cc",
+      "doc_path": "source/MMP-9",
+      "file": "vibevm/vibespecs/source/MMP-9.md",
+      "heading": "MMP.9 - Derive a Reduced Mathematical Model of State Evolution: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-9#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:97452f3ed2dc1eab997d447f7038e14f46096847c72c78ffb4d6ec4be7027509",
+      "doc_path": "source/MMP-9",
+      "file": "vibevm/vibespecs/source/MMP-9.md",
+      "heading": "MMP.9:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-9#archetypal-grounding"
+    },
+    {
+      "anchor": "replace-many-response-components-by-two-evolving-quantities",
+      "content_hash": "sha256:05dac412cef3ed8e7030c8b7c03fb2b02c26f4fb8897604faa0c546839c08542",
+      "doc_path": "source/MMP-9",
+      "file": "vibevm/vibespecs/source/MMP-9.md",
+      "heading": "MMP.9:5.1 - Replace many response components by two evolving quantities",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-9#replace-many-response-components-by-two-evolving-quantities"
+    },
+    {
+      "anchor": "answer-about-a-nonlinear-population-without-a-closed-mean",
+      "content_hash": "sha256:b7617b66d424ac0df4348d2b47d200218f8c6ce4cfa203c2496fafc3820f06e3",
+      "doc_path": "source/MMP-9",
+      "file": "vibevm/vibespecs/source/MMP-9.md",
+      "heading": "MMP.9:5.2 - Answer about a nonlinear population without a closed mean equation",
+      "line": 31,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-9#answer-about-a-nonlinear-population-without-a-closed-mean"
+    },
+    {
+      "anchor": "decide-whether-a-fast-transient-can-be-omitted",
+      "content_hash": "sha256:ef54a2d171018df460807ac193c68c8e0cca54ee764a5dea42ff317e52f446f2",
+      "doc_path": "source/MMP-9",
+      "file": "vibevm/vibespecs/source/MMP-9.md",
+      "heading": "MMP.9:5.3 - Decide whether a fast transient can be omitted",
+      "line": 49,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-9#decide-whether-a-fast-transient-can-be-omitted"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:ba39e11cfc452b2d674e390ae8ba7eb532c8d19f326827335bbaf67b723d1e96",
+      "doc_path": "source/MMP-9",
+      "file": "vibevm/vibespecs/source/MMP-9.md",
+      "heading": "MMP.9:6 - Bias-Annotation",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-9#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:0e332ea58fee138f3c8b7ee96e7a6452f0c349652e083f9c143e6415d29551e1",
+      "doc_path": "source/MMP-9",
+      "file": "vibevm/vibespecs/source/MMP-9.md",
+      "heading": "MMP.9:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 67,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-9#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:daee8f97037d9203cff141fadb6c10c1861e85ed3ace8acc21b448c5ca0e05ca",
+      "doc_path": "source/MMP-9",
+      "file": "vibevm/vibespecs/source/MMP-9.md",
+      "heading": "MMP.9:10 - Architectural Rationale",
+      "line": 77,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-9#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:343e9226d77568551bfaafb0ebd971d041a42688d5fb227398f2c8f69ec2d8b5",
+      "doc_path": "source/MMP-9",
+      "file": "vibevm/vibespecs/source/MMP-9.md",
+      "heading": "MMP.9:11 - SoTA-Echoing",
+      "line": 85,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-9#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:c856358509c7396a94edef660c0259d41255c6914893e760da9cc34237494e91",
+      "doc_path": "source/MMP-9",
+      "file": "vibevm/vibespecs/source/MMP-9.md",
+      "heading": "MMP.9:End",
+      "line": 96,
+      "uri": "spec://ai.lev/fpf-think-mmp/source/MMP-9#end"
+    }
+  ],
+  "suspects": [],
+  "warnings": []
+}

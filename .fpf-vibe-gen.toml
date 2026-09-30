@@ -1,0 +1,10 @@
+# Ownership marker of fpf-vibe-gen: this package is generated; do not edit by hand.
+generator = "fpf-vibe-gen 0.1.0"
+package = "fpf-think-mmp"
+version = "2026.929.0"
+upstream_url = "https://github.com/ailev/FPF"
+upstream_commit = "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+upstream_date = "2026-09-29T12:54:08+03:00"
+source_paths = ["Foundational Thinking DPF Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md"]
+files = 42
+tree_sha256 = "7b64715f5f92f9d2c9b6aef9e6cca6f9eec2e2aa78c4d90a88f723e71923c53f"
